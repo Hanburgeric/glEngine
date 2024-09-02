@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.3.8/src
+# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-animation/vendor/glfw-3.3.8/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/glEngine")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GrapiCar")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-animation/cmake-build-debug/vendor/glfw-3.3.8/src/libglfw3.a")
 endif()
 
