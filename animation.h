@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 
+#include "interpolator.h"
+
 struct AnimationChannelTarget {
   std::int32_t node_;
   std::string path_;
@@ -25,6 +27,9 @@ struct Animation {
   std::vector<AnimationChannel> channels_;
   std::vector<AnimationSampler> samplers_;
   std::string name_;
+
+  std::vector<Interpolator> interpolators_;
+  float max_time_; //Number assumed to be a float
 };
 
 #endif //GRAPICAR__ANIMATION_H_

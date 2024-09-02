@@ -10,7 +10,7 @@ struct Buffer {
   std::int32_t byte_length_;
   std::string name_;
 
-  std::vector<char> data_;
+  std::vector<uint8_t> data_;
 };
 
 #endif //GRAPICAR__BUFFER_H_

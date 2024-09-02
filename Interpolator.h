@@ -1,32 +1,34 @@
-#ifndef INTERPOLATOR_H_
-#define INTERPOLATOR_H_
+#ifndef GRAPICAR__INTERPOLATOR_H_
+#define GRAPICAR__INTERPOLATOR_H_
+
+#include <vector>
 
 #include <glm/gtx/quaternion.hpp>
 
-#include "gltf.h"
-
-template<typename T>
-T clamp(const T& t, const T& min, const T& max);
+struct AnimationChannel;
+struct AnimationSampler;
+struct GLTF;
 
 class Interpolator {
  public:
   Interpolator();
 
-  glm::vec4 step(const float* output, const std::size_t& stride) const;
-  glm::vec4 linear(const std::size_t& nextKey, const float* output, const float& t, const std::size_t& stride) const;
-  glm::vec4 cubicSpline(const std::size_t& nextKey, const float* output, const float& keyDelta, const float& t, const std::size_t& stride) const;
-  void resetKey();
-  glm::vec4 interpolate(const GLTF& gltf,
-                        const AnimationChannel& channel,
-                        const AnimationSampler& sampler,
-                        float t,
-                        const std::size_t& stride,
-                        float maxTime);
-  static glm::quat getQuat(const float* output, const std::size_t& index);
+  std::vector<float> Interpolate(const GLTF& gltf,
+                                 const AnimationChannel& channel,
+                                 const AnimationSampler& sampler,
+                                 float t, const std::size_t& stride, float max_time);
 
  private:
-  std::size_t prevKey;
-  float prevT;
+  std::vector<float> Step(const float* output, const std::size_t& stride) const;
+  std::vector<float> Linear(const std::size_t& next_key, const float* output,
+                            const float& t, const std::size_t& stride) const;
+  std::vector<float> CubicSpline(const std::size_t& next_key, const float* output,
+                                 const float& key_delta, const float& t, const std::size_t& stride) const;
+
+  static glm::quat GetQuat(const float* output, const std::size_t& index);
+
+  std::size_t prev_key_;
+  float prev_time_;
 };
 
-#endif
+#endif //GRAPICAR__INTERPOLATOR_H_

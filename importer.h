@@ -19,18 +19,20 @@ class Importer {
 
   void LoadAccessors(GLTF& gltf);
   void LoadAnimations(GLTF& gltf);
-  void LoadBuffers(GLTF& gltf, const std::string& path);
+  void LoadBuffers(GLTF& gltf);
   void LoadBufferViews(GLTF& gltf);
 //  void LoadCameras(GLTF& gltf);
-//  void LoadImages(GLTF& gltf);
-//  void LoadMaterials(GLTF& gltf);
+  void LoadImages(GLTF& gltf);
+  void LoadMaterials(GLTF& gltf);
   void LoadMeshes(GLTF& gltf);
   void LoadNodes(GLTF& gltf);
-//  void LoadSamplers(GLTF& gltf);
+  void LoadSamplers(GLTF& gltf);
   void LoadScene(GLTF& gltf);
   void LoadScenes(GLTF& gltf);
 //  void LoadSkins(GLTF& gltf);
-//  void LoadTextures(GLTF& gltf);
+  void LoadTextures(GLTF& gltf);
+
+  void Initialize(GLTF& gltf);
 
   template <typename T, std::size_t L, typename U>
   void CopyGenericArrayToArray(std::array<T, L>& dst, const rapidjson::GenericArray<true, U>& src) {
@@ -46,6 +48,7 @@ class Importer {
     }
   }
 
+  std::string parent_directory_;
   rapidjson::Document document_;
 };
 

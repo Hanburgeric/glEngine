@@ -22,23 +22,26 @@ include_directories(vendor/rapidjson)
 #stb-master
 include_directories(vendor/stb-master)
 
-#tinygltf
-include_directories(vendor/tinygltf-2.7.0)
-
 add_executable(${PROJECT_NAME} ${GLAD_GL} main.cc
         accessor.h
         animation.h
         buffer.h
         buffer_view.h
         gltf.h
+        image.h
         importer.cc importer.h
+        interpolator.cc interpolator.h
+        material.h
         mesh.h
         node.h
+        renderer.cc renderer.h
+        sampler.h
         scene.h
         shader.cc shader.h
+        texture.h
         utils.cc utils.h
-        camera.h
-        Interpolator.cc Interpolator.h)
+
+        camera.h)
 
 #GLFW
 target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES} glfw)

@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="GrapiCar" targetName="icon" />
+      <config projectName="GrapiCar" targetName="title" />
+      <config projectName="GrapiCar" targetName="glfw" />
+      <config projectName="GrapiCar" targetName="tearing" />
+      <config projectName="GrapiCar" targetName="cursor" />
+      <config projectName="GrapiCar" targetName="windows" />
+      <config projectName="GrapiCar" targetName="clipboard" />
+      <config projectName="GrapiCar" targetName="empty" />
+      <config projectName="GrapiCar" targetName="wave" />
+      <config projectName="GrapiCar" targetName="inputlag" />
+      <config projectName="GrapiCar" targetName="glfwinfo" />
+      <config projectName="GrapiCar" targetName="simple" />
+      <config projectName="GrapiCar" targetName="splitview" />
+      <config projectName="GrapiCar" targetName="heightmap" />
+      <config projectName="GrapiCar" targetName="particles" />
+      <config projectName="GrapiCar" targetName="offscreen" />
+      <config projectName="GrapiCar" targetName="events" />
+      <config projectName="GrapiCar" targetName="threads" />
+      <config projectName="GrapiCar" targetName="gears" />
+      <config projectName="GrapiCar" targetName="sharing" />
+      <config projectName="GrapiCar" targetName="uninstall" />
+      <config projectName="GrapiCar" targetName="boing" />
+      <config projectName="GrapiCar" targetName="joysticks" />
+      <config projectName="GrapiCar" targetName="timeout" />
+      <config projectName="GrapiCar" targetName="iconify" />
+      <config projectName="GrapiCar" targetName="triangle-vulkan" />
+      <config projectName="GrapiCar" targetName="msaa" />
+      <config projectName="GrapiCar" targetName="reopen" />
+      <config projectName="GrapiCar" targetName="opacity" />
+      <config projectName="GrapiCar" targetName="GrapiCar" />
+      <config projectName="GrapiCar" targetName="update_mappings" />
+      <config projectName="GrapiCar" targetName="gamma" />
+      <config projectName="GrapiCar" targetName="monitors" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -15,7 +52,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b13630-cfc3-4a3c-9c43-22d7295933e1" name="Changes" comment="" />
+    <list default="true" id="39825ffd-0ba4-4a72-9c07-3c0a98b28744" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +61,16 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.1" />
+  </component>
+  <component name="ProjectId" id="2JTkWQl8mrmHPBM6GmrkrXGxjdq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,31 +81,312 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/BANJISU/OneDrive/CLionProjects/GrapiCar"
+    "last_opened_file_path": "C:/Users/BANJISU/OneDrive/CLionProjects/GrapiCar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\footprint_court" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\DamagedHelmet" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\glTF-Sample-Models\03-AnimatedTriangle" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\glTF-Sample-Models\02-Triangle" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\glTF-Sample-Models\01-TriangleWithoutIndices" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\DamagedHelmet" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\glTF-Sample-Models\02-Triangle" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\glTF-Sample-Models" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\bakup" />
+      <recent name="C:\Users\hanwe\OneDrive\CLionProjects\GrapiCar\shaders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.GrapiCar">
+    <configuration name="GrapiCar" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="GrapiCar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="GrapiCar">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="boing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="clipboard">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="cursor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="empty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="events">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="gamma">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="gears">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="glfwinfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="heightmap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="icon" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="icon" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="icon">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="iconify">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inputlag" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="inputlag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="inputlag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="joysticks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="monitors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="msaa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offscreen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="offscreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="offscreen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opacity" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="opacity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="opacity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="particles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="reopen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="sharing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="simple">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="splitview">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="tearing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="threads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="timeout" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="timeout" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="timeout">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="title">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="triangle-vulkan" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="triangle-vulkan" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="triangle-vulkan">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="update_mappings" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="update_mappings" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="wave">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrapiCar" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrapiCar" RUN_TARGET_NAME="windows">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.GrapiCar" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.boing" />
+      <item itemvalue="CMake Application.gears" />
+      <item itemvalue="CMake Application.heightmap" />
+      <item itemvalue="CMake Application.offscreen" />
+      <item itemvalue="CMake Application.particles" />
+      <item itemvalue="CMake Application.sharing" />
+      <item itemvalue="CMake Application.simple" />
+      <item itemvalue="CMake Application.splitview" />
+      <item itemvalue="CMake Application.wave" />
+      <item itemvalue="CMake Application.glfw" />
+      <item itemvalue="CMake Application.update_mappings" />
+      <item itemvalue="CMake Application.clipboard" />
+      <item itemvalue="CMake Application.cursor" />
+      <item itemvalue="CMake Application.empty" />
+      <item itemvalue="CMake Application.events" />
+      <item itemvalue="CMake Application.gamma" />
+      <item itemvalue="CMake Application.glfwinfo" />
+      <item itemvalue="CMake Application.icon" />
+      <item itemvalue="CMake Application.iconify" />
+      <item itemvalue="CMake Application.inputlag" />
+      <item itemvalue="CMake Application.joysticks" />
+      <item itemvalue="CMake Application.monitors" />
+      <item itemvalue="CMake Application.msaa" />
+      <item itemvalue="CMake Application.opacity" />
+      <item itemvalue="CMake Application.reopen" />
+      <item itemvalue="CMake Application.tearing" />
+      <item itemvalue="CMake Application.threads" />
+      <item itemvalue="CMake Application.timeout" />
+      <item itemvalue="CMake Application.title" />
+      <item itemvalue="CMake Application.triangle-vulkan" />
+      <item itemvalue="CMake Application.windows" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78b13630-cfc3-4a3c-9c43-22d7295933e1" name="Changes" comment="" />
-      <created>1677548613655</created>
+      <changelist id="39825ffd-0ba4-4a72-9c07-3c0a98b28744" name="Changes" comment="" />
+      <created>1672109491912</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677548613655</updated>
-      <workItem from="1677548614976" duration="15000" />
+      <updated>1672109491912</updated>
+      <workItem from="1672109494143" duration="8383000" />
+      <workItem from="1672320137531" duration="5929000" />
+      <workItem from="1672624320380" duration="30517000" />
+      <workItem from="1672727506935" duration="6436000" />
+      <workItem from="1672813410770" duration="6316000" />
+      <workItem from="1672844785946" duration="494000" />
+      <workItem from="1672845293778" duration="39000" />
+      <workItem from="1672845393258" duration="4392000" />
+      <workItem from="1672849846779" duration="49713000" />
+      <workItem from="1673230301940" duration="5450000" />
+      <workItem from="1673241206410" duration="1382000" />
+      <workItem from="1673243262735" duration="45909000" />
+      <workItem from="1673437711870" duration="7630000" />
+      <workItem from="1673487462341" duration="19000000" />
+      <workItem from="1673511560473" duration="64000" />
+      <workItem from="1673676543537" duration="30000" />
+      <workItem from="1673840550093" duration="611000" />
+      <workItem from="1673842291456" duration="1006000" />
+      <workItem from="1673856443748" duration="39000" />
+      <workItem from="1674006161858" duration="632000" />
+      <workItem from="1674705076591" duration="9498000" />
+      <workItem from="1674824652200" duration="1219000" />
+      <workItem from="1674876511257" duration="7798000" />
+      <workItem from="1674916632300" duration="9268000" />
+      <workItem from="1675051158857" duration="17023000" />
+      <workItem from="1675144824501" duration="10385000" />
+      <workItem from="1675187938126" duration="2370000" />
+      <workItem from="1675239828949" duration="22219000" />
+      <workItem from="1675351543925" duration="60379000" />
+      <workItem from="1675518054083" duration="10079000" />
+      <workItem from="1675528468388" duration="25995000" />
+      <workItem from="1675651076921" duration="596000" />
+      <workItem from="1675670631654" duration="14000" />
+      <workItem from="1675687757221" duration="3963000" />
+      <workItem from="1675694356152" duration="12815000" />
+      <workItem from="1675715399399" duration="39274000" />
+      <workItem from="1675891676650" duration="1250000" />
+      <workItem from="1675991692718" duration="16000" />
+      <workItem from="1675992104584" duration="56000" />
+      <workItem from="1675992347219" duration="515000" />
+      <workItem from="1676303009716" duration="4337000" />
+      <workItem from="1676371991278" duration="20581000" />
+      <workItem from="1676488517993" duration="4239000" />
+      <workItem from="1676569290343" duration="143000" />
+      <workItem from="1676643102227" duration="17884000" />
+      <workItem from="1676712866524" duration="417000" />
+      <workItem from="1676713352387" duration="14192000" />
+      <workItem from="1676867555090" duration="42000" />
+      <workItem from="1676886614668" duration="26997000" />
+      <workItem from="1677032630778" duration="8371000" />
+      <workItem from="1677049134114" duration="56000" />
+      <workItem from="1677079901025" duration="2173000" />
+      <workItem from="1677148331298" duration="752000" />
+      <workItem from="1677392042418" duration="1125000" />
+      <workItem from="1677393290423" duration="1586000" />
+      <workItem from="1677548494258" duration="44000" />
+      <workItem from="1677548560390" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

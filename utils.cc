@@ -1,7 +1,7 @@
 #include "utils.h"
 
-int32_t GetByteStride(const Accessor& accessor, const BufferView& buffer_view) {
-  int32_t n;
+std::int32_t GetByteStride(const Accessor& accessor, const BufferView& buffer_view) {
+  std::int32_t n;
   int component_size_in_bytes = GetComponentSizeInBytes(accessor.component_type_);
   if (component_size_in_bytes <= 0) {
     n = -1;
@@ -22,8 +22,8 @@ int32_t GetByteStride(const Accessor& accessor, const BufferView& buffer_view) {
   return n;
 }
 
-int32_t GetComponentSizeInBytes(const int32_t& component_type) {
-  int32_t n;
+std::int32_t GetComponentSizeInBytes(const std::int32_t& component_type) {
+  std::int32_t n;
   if (component_type == 5120) {
     n = 1;
   } else if (component_type == 5121) {
@@ -42,8 +42,8 @@ int32_t GetComponentSizeInBytes(const int32_t& component_type) {
   return n;
 }
 
-int32_t GetNumComponentsInType(const Accessor& accessor) {
-  int32_t n;
+std::int32_t GetNumComponentsInType(const Accessor& accessor) {
+  std::int32_t n;
   if (accessor.type_ == "SCALAR") {
     n = 1;
   } else if (accessor.type_ == "VEC2") {
@@ -60,4 +60,13 @@ int32_t GetNumComponentsInType(const Accessor& accessor) {
     n = -1;
   }
   return n;
+}
+
+std::string GetBaseDir(const std::string& path) {
+  std::string result;
+  std::size_t index = path.find_last_of("/\\");
+  if (index != std::string::npos) {
+    result = path.substr(0U, index + 1U);
+  }
+  return result;
 }

@@ -7,8 +7,7 @@
 
 class InputManager;
 
-class Camera
-{
+class Camera {
  public:
   Camera(const glm::vec3& position, const glm::vec3& world_up, const float& yaw, const float& pitch, const float& fov, const float& near, const float& far)
       : position_(position),

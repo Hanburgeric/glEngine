@@ -62,7 +62,7 @@ class Shader {
   void SetUniformMatrix3x4fv(const std::string& name, std::int32_t count, bool transpose, const glm::mat3x4& value);
   void SetUniformMatrix4x3fv(const std::string& name, std::int32_t count, bool transpose, const glm::mat4x3& value);
 
- private:
+// private:
   std::string ParseShaderSource(const std::string& path) const;
 
   bool IsShaderCompiled(const std::uint32_t& shader_id) const;

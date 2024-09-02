@@ -30,9 +30,6 @@ void Shader::AddShader(const GLenum& type, const std::string& path) {
   glCompileShader(shader_id);
   if (!IsShaderCompiled(shader_id)) {
     std::cerr << "Failed to compile shader at: " << path << std::endl;
-    char info_log[1024U];
-    glGetShaderInfoLog(shader_id, 1024, nullptr, info_log);
-    std::cout << info_log << std::endl;
   } else {
     shader_ids_.push_back(shader_id);
   }
