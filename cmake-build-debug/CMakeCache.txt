@@ -211,16 +211,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=glEngine
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=3.3.8
+CMAKE_PROJECT_VERSION:STATIC=3.4.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=3
+CMAKE_PROJECT_VERSION_MINOR:STATIC=4
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=8
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -312,16 +312,19 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
 
 //Value Computed by CMake
-GLFW_BINARY_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8
+GLFW_BINARY_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4
 
 //Build the GLFW documentation
 GLFW_BUILD_DOCS:BOOL=ON
 
 //Build the GLFW example programs
-GLFW_BUILD_EXAMPLES:BOOL=ON
+GLFW_BUILD_EXAMPLES:BOOL=OFF
 
 //Build the GLFW test programs
-GLFW_BUILD_TESTS:BOOL=ON
+GLFW_BUILD_TESTS:BOOL=OFF
+
+//Build support for Win32
+GLFW_BUILD_WIN32:BOOL=ON
 
 //Generate installation target
 GLFW_INSTALL:BOOL=ON
@@ -329,20 +332,102 @@ GLFW_INSTALL:BOOL=ON
 //Value Computed by CMake
 GLFW_IS_TOP_LEVEL:STATIC=OFF
 
+//Library type override for GLFW (SHARED, STATIC, OBJECT, or empty
+// to follow BUILD_SHARED_LIBS)
+GLFW_LIBRARY_TYPE:STRING=
+
 //Value Computed by CMake
-GLFW_SOURCE_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.3.8
+GLFW_SOURCE_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4
 
 //Force use of high-performance GPU on hybrid systems
 GLFW_USE_HYBRID_HPG:BOOL=OFF
 
-//Assume the Vulkan loader is linked with the application
-GLFW_VULKAN_STATIC:BOOL=OFF
+//Generate the install target
+GLM_BUILD_INSTALL:BOOL=OFF
 
-//OpenGL library for win32
-OPENGL_gl_LIBRARY:STRING=opengl32
+//Build dynamic/static library
+GLM_BUILD_LIBRARY:BOOL=ON
 
-//GLU library for win32
-OPENGL_glu_LIBRARY:STRING=glu32
+//Build the test programs
+GLM_BUILD_TESTS:BOOL=OFF
+
+//Disable platform, compiler, arch and C++ language detection
+GLM_DISABLE_AUTO_DETECTION:BOOL=OFF
+
+//Enable C++ 11
+GLM_ENABLE_CXX_11:BOOL=OFF
+
+//Enable C++ 14
+GLM_ENABLE_CXX_14:BOOL=OFF
+
+//Enable C++ 17
+GLM_ENABLE_CXX_17:BOOL=OFF
+
+//Enable C++ 20
+GLM_ENABLE_CXX_20:BOOL=OFF
+
+//Enable C++ 98
+GLM_ENABLE_CXX_98:BOOL=OFF
+
+//Enable fast math optimizations
+GLM_ENABLE_FAST_MATH:BOOL=OFF
+
+//Enable language extensions
+GLM_ENABLE_LANG_EXTENSIONS:BOOL=OFF
+
+//Enable AVX optimizations
+GLM_ENABLE_SIMD_AVX:BOOL=OFF
+
+//Enable AVX2 optimizations
+GLM_ENABLE_SIMD_AVX2:BOOL=OFF
+
+//Enable SSE2 optimizations
+GLM_ENABLE_SIMD_SSE2:BOOL=OFF
+
+//Enable SSE3 optimizations
+GLM_ENABLE_SIMD_SSE3:BOOL=OFF
+
+//Enable SSE 4.1 optimizations
+GLM_ENABLE_SIMD_SSE4_1:BOOL=OFF
+
+//Enable SSE 4.2 optimizations
+GLM_ENABLE_SIMD_SSE4_2:BOOL=OFF
+
+//Enable SSSE3 optimizations
+GLM_ENABLE_SIMD_SSSE3:BOOL=OFF
+
+//Force 'pure' instructions
+GLM_FORCE_PURE:BOOL=OFF
+
+//Build the unit tests when BUILD_TESTING is enabled.
+JSON_BuildTests:BOOL=OFF
+
+//Enable CI build targets.
+JSON_CI:BOOL=OFF
+
+//Use extended diagnostic messages.
+JSON_Diagnostics:BOOL=OFF
+
+//Disable default integer enum serialization.
+JSON_DisableEnumSerialization:BOOL=OFF
+
+//Place use-defined string literals in the global namespace.
+JSON_GlobalUDLs:BOOL=ON
+
+//Enable implicit conversions.
+JSON_ImplicitConversions:BOOL=ON
+
+//Install CMake targets during install step.
+JSON_Install:BOOL=OFF
+
+//Enable legacy discarded value comparison.
+JSON_LegacyDiscardedValueComparison:BOOL=OFF
+
+//Use non-amalgamated version of the library.
+JSON_MultipleHeaders:BOOL=ON
+
+//Include as system headers (skip for clang-tidy).
+JSON_SystemInclude:BOOL=OFF
 
 //Value Computed by CMake
 glEngine_BINARY_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug
@@ -352,6 +437,24 @@ glEngine_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 glEngine_SOURCE_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine
+
+//Value Computed by CMake
+glm_BINARY_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glm-1.0.1
+
+//Value Computed by CMake
+glm_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glm_SOURCE_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1
+
+//Value Computed by CMake
+nlohmann_json_BINARY_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3
+
+//Value Computed by CMake
+nlohmann_json_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+nlohmann_json_SOURCE_DIR:STATIC=C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3
 
 
 ########################
@@ -490,7 +593,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -550,24 +653,17 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DINPUT_H_FOUND:INTERNAL=1
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
-//Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][c ][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_glu_LIBRARY
-OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//GLFW pkg-config Libs.private
+GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL= -lgdi32
+//GLFW pkg-config Requires.private
+GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
+NLOHMANN_JSON_CONFIG_INSTALL_DIR:INTERNAL=share/cmake/nlohmann_json
 //Have include xinput.h
 XINPUT_H_FOUND:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
-//Test _GLFW_HAS_64ASLR
-_GLFW_HAS_64ASLR:INTERNAL=1
-//Test _GLFW_HAS_ASLR
-_GLFW_HAS_ASLR:INTERNAL=1
-//Test _GLFW_HAS_DEP
-_GLFW_HAS_DEP:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/glEngine
 
