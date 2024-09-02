@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/GrapiCar
+prefix=C:/Program Files (x86)/glEngine
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/GrapiCar/include
-libdir=C:/Program Files (x86)/GrapiCar/lib
+includedir=C:/Program Files (x86)/glEngine/include
+libdir=C:/Program Files (x86)/glEngine/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

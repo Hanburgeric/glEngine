@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-pbr/vendor/glfw-3.3.8/tests
+# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.3.8/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/GrapiCar")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/glEngine")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
