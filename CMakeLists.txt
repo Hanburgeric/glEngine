@@ -1,44 +1,34 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.28)
 project(glEngine)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 23)
 
-#GLAD
-include_directories(vendor/glfw-3.3.8/deps)
-set(GLAD_GL vendor/glfw-3.3.8/deps/glad/gl.h
-        ${GLFW_SOURCE_DIR}/deps/glad_gl.c)
+# GLAD
+include_directories(vendor/glad/include)
+set(GLAD vendor/glad/include/glad/gl.h vendor/glad/src/gl.c)
 
-#GLFW
-find_package(OpenGL REQUIRED)
-include_directories(${OPENGL_INCLUDE_DIRS})
-add_subdirectory(vendor/glfw-3.3.8)
+# GLFW
+add_subdirectory(vendor/glfw-3.4)
 
-#GLM
-include_directories(vendor/glm-0.9.9.8/glm)
+# GLM
+add_subdirectory(vendor/glm-1.0.1)
 
-#rapidjson
-include_directories(vendor/rapidjson)
+# JSON
+add_subdirectory(vendor/json-3.11.3)
 
-#stb-master
-include_directories(vendor/stb-master)
+# SRC
+set(SRC src/gltf/accessor.h
+        src/gltf/buffer.h
+        src/gltf/buffer_view.h
+        src/gltf/gltf.h
+        src/gltf/mesh.h
+        src/gltf/node.h
+        src/gltf/scene.h
+        src/model.cc src/model.h
+        src/renderer/program.cc src/renderer/program.h
+        src/renderer/shader.cc src/renderer/shader.h
+        src/utils.cc src/utils.h)
 
-#tinygltf
-include_directories(vendor/tinygltf-2.7.0)
+add_executable(${PROJECT_NAME} ${GLAD} ${SRC} main.cpp)
 
-add_executable(${PROJECT_NAME} ${GLAD_GL} main.cc
-        accessor.h
-        animation.h
-        buffer.h
-        buffer_view.h
-        gltf.h
-        importer.cc importer.h
-        mesh.h
-        node.h
-        scene.h
-        shader.cc shader.h
-        utils.cc utils.h
-        camera.h
-        Interpolator.cc Interpolator.h)
-
-#GLFW
-target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES} glfw)
+target_link_libraries(${PROJECT_NAME} glfw glm::glm nlohmann_json::nlohmann_json)
