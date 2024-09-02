@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-animation/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-animation/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/hanwe/OneDrive/CLionProjects/glEngine-deprecated-animation/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt" files)
+file(READ "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
