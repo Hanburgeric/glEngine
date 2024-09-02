@@ -1,0 +1,3 @@
+C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/CMakeFiles/glEngine.dir
+C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
