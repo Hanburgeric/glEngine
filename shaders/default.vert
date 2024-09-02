@@ -1,11 +1,24 @@
-#version 460 core
+#version 310 es
 
-layout (location = 0) in vec3 in_pos;
+layout (location = 0) in vec3 position;
+layout (location = 1) in vec2 aTexCoord;
+layout (location = 2) in vec3 aNormal;
 
-uniform mat4 u_model_matrix;
-uniform mat4 u_view_matrix;
-uniform mat4 u_projection_matrix;
+out vec4 v_shadowCoord;
+out vec2 v_texCoord;
+out vec3 FragPos;
+out vec3 Normal;
+
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+uniform mat4 lightSpaceMatrix;
 
 void main() {
-    gl_Position = u_projection_matrix * u_view_matrix * u_model_matrix * vec4(in_pos, 1.0F);
+   FragPos = vec3(model * vec4(position , 1.0F));
+   Normal = mat3(transpose(inverse(model))) * aNormal;
+   v_shadowCoord  = lightSpaceMatrix * vec4(position, 1.0F);
+   v_shadowCoord = v_shadowCoord * 0.5F + 0.5F;
+   v_texCoord = vec2(aTexCoord.x, 1.0F - aTexCoord.y);
+   gl_Position =  projection * view * model * vec4(position, 1.0F);
 }

@@ -39,17 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glm-1.0.1/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/cmake_install.cmake")
+  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.3.8/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
