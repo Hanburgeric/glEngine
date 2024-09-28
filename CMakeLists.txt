@@ -17,7 +17,11 @@ add_subdirectory(vendor/glm-1.0.1)
 add_subdirectory(vendor/json-3.11.3)
 
 # SRC
-set(SRC src/gltf/accessor.h
+set(SRC src/engine/engine.cc src/engine/engine.h
+        src/engine/input_handler.cc src/engine/input_handler.h
+        src/engine/renderer/program.cc src/engine/renderer/program.h
+        src/engine/renderer/shader.cc src/engine/renderer/shader.h
+        src/gltf/accessor.h
         src/gltf/buffer.h
         src/gltf/buffer_view.h
         src/gltf/gltf.h
@@ -25,10 +29,11 @@ set(SRC src/gltf/accessor.h
         src/gltf/node.h
         src/gltf/scene.h
         src/model.cc src/model.h
-        src/renderer/program.cc src/renderer/program.h
-        src/renderer/shader.cc src/renderer/shader.h
-        src/utils.cc src/utils.h)
+        src/utils.cc src/utils.h
+        src/engine/camera.cc
+        src/engine/camera.h
+)
 
-add_executable(${PROJECT_NAME} ${GLAD} ${SRC} main.cpp)
+add_executable(${PROJECT_NAME} ${GLAD} ${SRC} main.cc)
 
 target_link_libraries(${PROJECT_NAME} glfw glm::glm nlohmann_json::nlohmann_json)
