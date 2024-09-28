@@ -297,6 +297,30 @@ src/engine/engine.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/engine.cc.s
 .PHONY : src/engine/engine.cc.s
 
+src/engine/importer.obj: src/engine/importer.cc.obj
+.PHONY : src/engine/importer.obj
+
+# target to build an object file
+src/engine/importer.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/importer.cc.obj
+.PHONY : src/engine/importer.cc.obj
+
+src/engine/importer.i: src/engine/importer.cc.i
+.PHONY : src/engine/importer.i
+
+# target to preprocess a source file
+src/engine/importer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/importer.cc.i
+.PHONY : src/engine/importer.cc.i
+
+src/engine/importer.s: src/engine/importer.cc.s
+.PHONY : src/engine/importer.s
+
+# target to generate assembly for a file
+src/engine/importer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/importer.cc.s
+.PHONY : src/engine/importer.cc.s
+
 src/engine/input_handler.obj: src/engine/input_handler.cc.obj
 .PHONY : src/engine/input_handler.obj
 
@@ -467,6 +491,9 @@ help:
 	@echo ... src/engine/engine.obj
 	@echo ... src/engine/engine.i
 	@echo ... src/engine/engine.s
+	@echo ... src/engine/importer.obj
+	@echo ... src/engine/importer.i
+	@echo ... src/engine/importer.s
 	@echo ... src/engine/input_handler.obj
 	@echo ... src/engine/input_handler.i
 	@echo ... src/engine/input_handler.s

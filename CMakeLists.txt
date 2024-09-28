@@ -32,6 +32,8 @@ set(SRC src/engine/engine.cc src/engine/engine.h
         src/utils.cc src/utils.h
         src/engine/camera.cc
         src/engine/camera.h
+        src/engine/importer.cc
+        src/engine/importer.h
 )
 
 add_executable(${PROJECT_NAME} ${GLAD} ${SRC} main.cc)

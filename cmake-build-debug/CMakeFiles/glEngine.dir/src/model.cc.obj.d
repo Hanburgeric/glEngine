@@ -328,6 +328,14 @@ CMakeFiles/glEngine.dir/src/model.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/KHR/khrplatform.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine/importer.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/gltf.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\gltf/accessor.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\gltf/buffer.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\gltf/buffer_view.h \

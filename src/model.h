@@ -15,23 +15,16 @@ class Model {
  public:
   explicit Model(const std::string& file_path);
 
-  void ImportGltf(const std::string& file_path);
+  void ImportModelFromFile(const std::string& file_path);
 
-  [[nodiscard]] gltf::Gltf GetGltf() const;
+  [[nodiscard]] const gltf::Gltf& GetGltf() const;
 
  private:
-  void Clear();
-
-  void ImportAccessors();
-  void ImportBuffers(const std::string& file_path);
-  void ImportBufferViews();
-  void ImportMeshes();
-  void ImportNodes();
-  void ImportScenes();
-
   void Initialize();
 
-  std::string path_;
+  void Clear();
+
+  std::string file_path_;
   nlohmann::json json_;
   gltf::Gltf gltf_;
 };

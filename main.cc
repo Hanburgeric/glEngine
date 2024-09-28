@@ -151,18 +151,22 @@ int main() {
 
             // Bind VAO
             glBindVertexArray(mesh_primitive.vao_);
+
+            // Render indexed geometry
             if (mesh_primitive.indices_.has_value()) {
-              // Render indexed geometry
               const auto& accessor = model.GetGltf().accessors_[mesh_primitive.indices_.value()];
 
               glDrawElements(mesh_primitive.mode_.value_or(4),
                              accessor.count_,
                              accessor.component_type_,
                              static_cast<char*>(nullptr) + accessor.byte_offset_.value_or(0));
-            } else {
+            }
+
+            // Render non-indexed geometry
+            else {
               // Render non-indexed geometry
               const auto& accessor = model.GetGltf().accessors_[mesh_primitive.attributes_.at("POSITION")];
-              //glDrawArrays(mesh_primitive.mode_.value_or(4), 0, accessor.count_);
+              glDrawArrays(mesh_primitive.mode_.value_or(4), 0, accessor.count_);
             }
           }
         }

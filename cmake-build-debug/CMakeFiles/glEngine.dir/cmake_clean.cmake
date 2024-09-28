@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/glEngine.dir/src/engine/camera.cc.obj.d"
   "CMakeFiles/glEngine.dir/src/engine/engine.cc.obj"
   "CMakeFiles/glEngine.dir/src/engine/engine.cc.obj.d"
+  "CMakeFiles/glEngine.dir/src/engine/importer.cc.obj"
+  "CMakeFiles/glEngine.dir/src/engine/importer.cc.obj.d"
   "CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj"
   "CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj.d"
   "CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj"

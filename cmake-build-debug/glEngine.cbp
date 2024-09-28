@@ -273,6 +273,12 @@
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/engine.h">
 			<Option target="glEngine"/>
 		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/importer.cc">
+			<Option target="glEngine"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/importer.h">
+			<Option target="glEngine"/>
+		</Unit>
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/input_handler.cc">
 			<Option target="glEngine"/>
 		</Unit>

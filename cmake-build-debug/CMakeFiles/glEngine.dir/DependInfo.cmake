@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/main.cc" "CMakeFiles/glEngine.dir/main.cc.obj" "gcc" "CMakeFiles/glEngine.dir/main.cc.obj.d"
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/camera.cc" "CMakeFiles/glEngine.dir/src/engine/camera.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/camera.cc.obj.d"
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/engine.cc" "CMakeFiles/glEngine.dir/src/engine/engine.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/engine.cc.obj.d"
+  "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/importer.cc" "CMakeFiles/glEngine.dir/src/engine/importer.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/importer.cc.obj.d"
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/input_handler.cc" "CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj.d"
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/program.cc" "CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj.d"
   "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/shader.cc" "CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj" "gcc" "CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj.d"
