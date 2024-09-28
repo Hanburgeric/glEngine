@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nlohmann_json"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vendor\;CMake Files\vendor\glfw-3.4\;CMake Files\vendor\glfw-3.4\CMake\;CMake Files\vendor\glfw-3.4\src\;CMake Files\vendor\glfw-3.4\docs\;CMake Files\vendor\glm-1.0.1\;CMake Files\vendor\glm-1.0.1\glm\;CMake Files\vendor\json-3.11.3\;CMake Files\vendor\json-3.11.3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.4\docs\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm-1.0.1\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm-1.0.1\glm\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\json-3.11.3\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\json-3.11.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\json-3.11.3\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\vendor\json-3.11.3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
