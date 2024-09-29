@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/tinygltf-2.9.3",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE  @CMakeFiles/loader_example.dir/includes_CXX.rsp -g -std=c++11 -fdiagnostics-color=always -o CMakeFiles\\loader_example.dir\\loader_example.cc.obj -c C:\\Users\\hanwe\\OneDrive\\CLionProjects\\glEngine\\vendor\\tinygltf-2.9.3\\loader_example.cc",
+  "file": "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/tinygltf-2.9.3/loader_example.cc",
+  "output": "vendor/tinygltf-2.9.3/CMakeFiles/loader_example.dir/loader_example.cc.obj"
+}
+]
