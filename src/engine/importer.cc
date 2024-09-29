@@ -232,14 +232,12 @@ gltf::Mesh ImportMesh(const nlohmann::basic_json<>& mesh) {
 
   // Primitives - REQUIRED
   if (mesh.contains("primitives")) {
-    const auto& primitives = mesh["primitives"];
-    for (const auto& primitive : primitives) {
+    for (const auto& primitive : mesh["primitives"]) {
       gltf::MeshPrimitive new_mesh_primitive;
 
       // Attributes - REQUIRED
       if (primitive.contains("attributes")) {
-        const auto& attributes = primitive["attributes"];
-        for (const auto& attribute : attributes.items()) {
+        for (const auto& attribute : primitive["attributes"].items()) {
           (void)new_mesh_primitive.attributes_.emplace(attribute.key(), attribute.value());
         }
       } else {
@@ -285,21 +283,38 @@ gltf::Node ImportNode(const nlohmann::basic_json<>& node) {
   // Camera
 
   // Children
+  if (node.contains("children")) {
+    for (const auto& child : node["children"]) {
+      new_node.children_.push_back(child);
+    }
+  }
 
   // Skin
 
-  // Matrix
+  // Matrix - DEFAULT : [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]
+  if (node.contains("matrix")) {
+    new_node.matrix_ = node["matrix"];
+  }
 
   // Mesh
   if (node.contains("mesh")) {
     new_node.mesh_ = node["mesh"];
   }
 
-  // Rotation
+  // Rotation - DEFAULT : [0,0,0,1]
+  if (node.contains("rotation")) {
+    new_node.rotation_ = node["rotation"];
+  }
 
-  // Scale
+  // Scale - DEFAULT : [1,1,1]
+  if (node.contains("scale")) {
+    new_node.scale_ = node["scale"];
+  }
 
-  // Translation
+  // Translation - DEFAULT : [0,0,0]
+  if (node.contains("translation")) {
+    new_node.translation_ = node["translation"];
+  }
 
   // Weights
 
@@ -320,8 +335,7 @@ gltf::Scene ImportScene(const nlohmann::basic_json<>& scene) {
 
   // Nodes
   if (scene.contains("nodes")) {
-    const auto& nodes = scene["nodes"];
-    for (const auto& node : nodes) {
+    for (const auto& node : scene["nodes"]) {
       new_scene.nodes_.push_back(node);
     }
   }

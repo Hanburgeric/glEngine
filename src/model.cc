@@ -8,6 +8,11 @@
 
 // Vendor headers
 #include "glad/gl.h"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/quaternion.hpp"
+#include "glm/gtc/type_ptr.hpp"
+#include "glm/mat4x4.hpp"
+#include "glm/vec3.hpp"
 #include "nlohmann/json.hpp"
 
 // User headers
@@ -24,6 +29,22 @@
 namespace glEngine {
 Model::Model(const std::string& file_path) {
   ImportModelFromFile(file_path);
+}
+
+void Model::Render(renderer::Program& program) const {
+  // Get default scene
+  if (gltf_.scene_.has_value()) {
+    int scene = gltf_.scene_.value();
+
+    // Get nodes from default scene
+    const auto &nodes = gltf_.scenes_[scene].nodes_;
+
+    // Iterate through nodes
+    for (int node : nodes) {
+      // Render
+      RenderNode(program, gltf_.nodes_[node], glm::mat4(1.0F));
+    }
+  }
 }
 
 void Model::ImportModelFromFile(const std::string& file_path) {
@@ -70,7 +91,7 @@ void Model::Initialize() {
       else {
         std::filesystem::path path(file_path_);
         std::ifstream binary_data(path.parent_path().string() + "/" + buffer.uri_, std::ios::binary);
-        buffer.binary_data_ = std::vector<unsigned char>(std::istreambuf_iterator<char>(binary_data), {});
+        buffer.data_ = std::vector<unsigned char>(std::istreambuf_iterator<char>(binary_data), {});
       }
     }
 
@@ -106,7 +127,7 @@ void Model::Initialize() {
             int buffer_view_byte_offset = buffer_view.byte_offset_.value_or(0);
             glBufferData(GL_ARRAY_BUFFER,
                          buffer_view.byte_length_,
-                         &buffer.binary_data_[accessor_byte_offset + buffer_view_byte_offset],
+                         &buffer.data_[accessor_byte_offset + buffer_view_byte_offset],
                          GL_STATIC_DRAW);
 
             // TO-DO : automatically match attribute locations with those of the relevant shader
@@ -150,7 +171,7 @@ void Model::Initialize() {
             int buffer_view_byte_offset = buffer_view.byte_offset_.value_or(0);
             glBufferData(GL_ELEMENT_ARRAY_BUFFER,
                          buffer_view.byte_length_,
-                         &buffer.binary_data_[accessor_byte_offset + buffer_view_byte_offset],
+                         &buffer.data_[accessor_byte_offset + buffer_view_byte_offset],
                          GL_STATIC_DRAW);
           } else {
             // TO-DO : a buffer MAY have an undefined uri property
@@ -190,5 +211,79 @@ void Model::Clear() {
   gltf_.nodes_.clear();
   gltf_.scene_.reset();
   gltf_.scenes_.clear();
+}
+
+void Model::RenderNode(renderer::Program& program, const gltf::Node& node, const glm::mat4x4& TRS) const {
+  // Obtain transformation matrix
+  glm::mat4 matrix;
+  if (node.matrix_.has_value()) {
+    // ??
+  } else {
+    matrix = glm::mat4(1.0F);
+
+    // Scale
+    if (node.scale_.has_value()) {
+      glm::vec3 scale(node.scale_.value()[0U],
+                      node.scale_.value()[1U],
+                      node.scale_.value()[2U]);
+      matrix = glm::scale(matrix, scale);
+    }
+
+    // Rotation
+    glm::quat rotation;
+    if (node.rotation_.has_value()) {
+      glm::quat rotation(node.rotation_.value()[3U],
+                         node.rotation_.value()[0U],
+                         node.rotation_.value()[1U],
+                         node.rotation_.value()[2U]);
+      matrix *= glm::mat4_cast(rotation);
+    }
+
+    // Translation
+    if (node.translation_.has_value()) {
+      glm::vec3 translation(node.translation_.value()[0U],
+                            node.translation_.value()[1U],
+                            node.translation_.value()[2U]);
+      matrix = glm::translate(matrix, translation);
+    }
+  }
+
+  // Model matrix
+  glm::mat4 M(TRS * matrix);
+
+  // Render children nodes
+  for (const auto& child : node.children_) {
+    RenderNode(program, gltf_.nodes_[child], M);
+  }
+
+  // Render
+  glUniformMatrix4fv(program.GetUniformLocation("model"), 1, false, glm::value_ptr(M));
+
+  if (node.mesh_.has_value()) {
+    int mesh_index = node.mesh_.value();
+    const auto& mesh = gltf_.meshes_[mesh_index];
+
+    // Mesh primitive
+    for (const auto& mesh_primitive : mesh.primitives_) {
+      // Bind VAO
+      glBindVertexArray(mesh_primitive.vao_);
+
+      // Render indexed geometry
+      if (mesh_primitive.indices_.has_value()) {
+        const auto& accessor = gltf_.accessors_[mesh_primitive.indices_.value()];
+
+        glDrawElements(mesh_primitive.mode_.value_or(4),
+                       accessor.count_,
+                       accessor.component_type_,
+                       static_cast<char*>(nullptr) + accessor.byte_offset_.value_or(0));
+      }
+
+      // Render non-indexed geometry
+      else {
+        const auto& accessor = gltf_.accessors_[mesh_primitive.attributes_.at("POSITION")];
+        glDrawArrays(mesh_primitive.mode_.value_or(4), 0, accessor.count_);
+      }
+    }
+  }
 }
 }

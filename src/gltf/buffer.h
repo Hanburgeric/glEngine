@@ -13,7 +13,7 @@ struct Buffer {
   // extensions
   // extras
 
-  std::vector<unsigned char> binary_data_;
+  std::vector<unsigned char> data_;
 };
 }
 

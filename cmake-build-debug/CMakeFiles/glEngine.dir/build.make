@@ -83,11 +83,26 @@ CMakeFiles/glEngine.dir/vendor/glad/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glEngine.dir/vendor/glad/src/gl.c.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\vendor\glad\src\gl.c -o CMakeFiles\glEngine.dir\vendor\glad\src\gl.c.s
 
+CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/flags.make
+CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
+CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/camera.cc
+CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/glEngine.dir/src/engine/camera.cc.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/camera.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\camera.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\camera.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc
+
+CMakeFiles/glEngine.dir/src/engine/camera.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glEngine.dir/src/engine/camera.cc.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc > CMakeFiles\glEngine.dir\src\engine\camera.cc.i
+
+CMakeFiles/glEngine.dir/src/engine/camera.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/engine/camera.cc.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc -o CMakeFiles\glEngine.dir\src\engine\camera.cc.s
+
 CMakeFiles/glEngine.dir/src/engine/engine.cc.obj: CMakeFiles/glEngine.dir/flags.make
 CMakeFiles/glEngine.dir/src/engine/engine.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/engine/engine.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/engine.cc
 CMakeFiles/glEngine.dir/src/engine/engine.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/glEngine.dir/src/engine/engine.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/glEngine.dir/src/engine/engine.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/engine.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\engine.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\engine.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\engine.cc
 
 CMakeFiles/glEngine.dir/src/engine/engine.cc.i: cmake_force
@@ -98,11 +113,26 @@ CMakeFiles/glEngine.dir/src/engine/engine.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/engine/engine.cc.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\engine.cc -o CMakeFiles\glEngine.dir\src\engine\engine.cc.s
 
+CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/flags.make
+CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
+CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/importer.cc
+CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/glEngine.dir/src/engine/importer.cc.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/importer.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\importer.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\importer.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc
+
+CMakeFiles/glEngine.dir/src/engine/importer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glEngine.dir/src/engine/importer.cc.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc > CMakeFiles\glEngine.dir\src\engine\importer.cc.i
+
+CMakeFiles/glEngine.dir/src/engine/importer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/engine/importer.cc.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc -o CMakeFiles\glEngine.dir\src\engine\importer.cc.s
+
 CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj: CMakeFiles/glEngine.dir/flags.make
 CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/input_handler.cc
 CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\input_handler.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\input_handler.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\input_handler.cc
 
 CMakeFiles/glEngine.dir/src/engine/input_handler.cc.i: cmake_force
@@ -117,7 +147,7 @@ CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj: CMakeFiles/glEngine.
 CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/program.cc
 CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\renderer\program.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\renderer\program.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\renderer\program.cc
 
 CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.i: cmake_force
@@ -132,7 +162,7 @@ CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj: CMakeFiles/glEngine.d
 CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/shader.cc
 CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\renderer\shader.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\renderer\shader.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\renderer\shader.cc
 
 CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.i: cmake_force
@@ -147,7 +177,7 @@ CMakeFiles/glEngine.dir/src/model.cc.obj: CMakeFiles/glEngine.dir/flags.make
 CMakeFiles/glEngine.dir/src/model.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/model.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/model.cc
 CMakeFiles/glEngine.dir/src/model.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/glEngine.dir/src/model.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/glEngine.dir/src/model.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/model.cc.obj -MF CMakeFiles\glEngine.dir\src\model.cc.obj.d -o CMakeFiles\glEngine.dir\src\model.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\model.cc
 
 CMakeFiles/glEngine.dir/src/model.cc.i: cmake_force
@@ -162,7 +192,7 @@ CMakeFiles/glEngine.dir/src/utils.cc.obj: CMakeFiles/glEngine.dir/flags.make
 CMakeFiles/glEngine.dir/src/utils.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
 CMakeFiles/glEngine.dir/src/utils.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/utils.cc
 CMakeFiles/glEngine.dir/src/utils.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/glEngine.dir/src/utils.cc.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/glEngine.dir/src/utils.cc.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/utils.cc.obj -MF CMakeFiles\glEngine.dir\src\utils.cc.obj.d -o CMakeFiles\glEngine.dir\src\utils.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\utils.cc
 
 CMakeFiles/glEngine.dir/src/utils.cc.i: cmake_force
@@ -172,36 +202,6 @@ CMakeFiles/glEngine.dir/src/utils.cc.i: cmake_force
 CMakeFiles/glEngine.dir/src/utils.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/utils.cc.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\utils.cc -o CMakeFiles\glEngine.dir\src\utils.cc.s
-
-CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/flags.make
-CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
-CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/camera.cc
-CMakeFiles/glEngine.dir/src/engine/camera.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/glEngine.dir/src/engine/camera.cc.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/camera.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\camera.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\camera.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc
-
-CMakeFiles/glEngine.dir/src/engine/camera.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glEngine.dir/src/engine/camera.cc.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc > CMakeFiles\glEngine.dir\src\engine\camera.cc.i
-
-CMakeFiles/glEngine.dir/src/engine/camera.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/engine/camera.cc.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\camera.cc -o CMakeFiles\glEngine.dir\src\engine\camera.cc.s
-
-CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/flags.make
-CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
-CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/importer.cc
-CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: CMakeFiles/glEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/glEngine.dir/src/engine/importer.cc.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glEngine.dir/src/engine/importer.cc.obj -MF CMakeFiles\glEngine.dir\src\engine\importer.cc.obj.d -o CMakeFiles\glEngine.dir\src\engine\importer.cc.obj -c C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc
-
-CMakeFiles/glEngine.dir/src/engine/importer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glEngine.dir/src/engine/importer.cc.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc > CMakeFiles\glEngine.dir\src\engine\importer.cc.i
-
-CMakeFiles/glEngine.dir/src/engine/importer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glEngine.dir/src/engine/importer.cc.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc -o CMakeFiles\glEngine.dir\src\engine\importer.cc.s
 
 CMakeFiles/glEngine.dir/main.cc.obj: CMakeFiles/glEngine.dir/flags.make
 CMakeFiles/glEngine.dir/main.cc.obj: CMakeFiles/glEngine.dir/includes_CXX.rsp
@@ -221,28 +221,28 @@ CMakeFiles/glEngine.dir/main.cc.s: cmake_force
 # Object files for target glEngine
 glEngine_OBJECTS = \
 "CMakeFiles/glEngine.dir/vendor/glad/src/gl.c.obj" \
+"CMakeFiles/glEngine.dir/src/engine/camera.cc.obj" \
 "CMakeFiles/glEngine.dir/src/engine/engine.cc.obj" \
+"CMakeFiles/glEngine.dir/src/engine/importer.cc.obj" \
 "CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj" \
 "CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj" \
 "CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj" \
 "CMakeFiles/glEngine.dir/src/model.cc.obj" \
 "CMakeFiles/glEngine.dir/src/utils.cc.obj" \
-"CMakeFiles/glEngine.dir/src/engine/camera.cc.obj" \
-"CMakeFiles/glEngine.dir/src/engine/importer.cc.obj" \
 "CMakeFiles/glEngine.dir/main.cc.obj"
 
 # External object files for target glEngine
 glEngine_EXTERNAL_OBJECTS =
 
 glEngine.exe: CMakeFiles/glEngine.dir/vendor/glad/src/gl.c.obj
+glEngine.exe: CMakeFiles/glEngine.dir/src/engine/camera.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/engine/engine.cc.obj
+glEngine.exe: CMakeFiles/glEngine.dir/src/engine/importer.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/model.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/src/utils.cc.obj
-glEngine.exe: CMakeFiles/glEngine.dir/src/engine/camera.cc.obj
-glEngine.exe: CMakeFiles/glEngine.dir/src/engine/importer.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/main.cc.obj
 glEngine.exe: CMakeFiles/glEngine.dir/build.make
 glEngine.exe: vendor/glfw-3.4/src/libglfw3.a

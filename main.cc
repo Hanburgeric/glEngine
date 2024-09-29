@@ -89,14 +89,24 @@ int main() {
   glfwSetWindowUserPointer(window, &engine);
 
   // Load shaders
-  glEngine::renderer::Shader default_vertex(GL_VERTEX_SHADER, "../shaders/default.vert");
-  glEngine::renderer::Shader default_fragment(GL_FRAGMENT_SHADER, "../shaders/default.frag");
+  glEngine::renderer::Shader vertex(GL_VERTEX_SHADER, "../shaders/default.vert");
+  glEngine::renderer::Shader fragment(GL_FRAGMENT_SHADER, "../shaders/default.frag");
 
   // Link shaders
-  glEngine::renderer::Program default_program({default_vertex, default_fragment});
+  glEngine::renderer::Program program({vertex, fragment});
+
+  // Use program
+  glUseProgram(program.GetProgram());
 
   // Load glTF
-  glEngine::Model model("../assets/Triangle/glTF/Triangle.gltf");
+  // TO-DO : each model should have its own camera position/sensitivity, as well as a dedicated shader
+//  glEngine::Model model("../assets/ABeautifulGame/glTF/ABeautifulGame.gltf");
+//  glEngine::Model model("../assets/BrainStem/glTF/BrainStem.gltf");
+  glEngine::Model model("../assets/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf");
+//  glEngine::Model model("../assets/DamagedHelmet/glTF/DamagedHelmet.gltf");
+//  glEngine::Model model("../assets/Triangle/glTF/Triangle.gltf");
+//  glEngine::Model model("../assets/TriangleWithoutindices/glTF/TriangleWithoutIndices.gltf");
+//  glEngine::Model model("../assets/VirtualCity/glTF/VirtualCity.gltf");
 
   // Main loop
   while (!glfwWindowShouldClose(window)) {
@@ -117,63 +127,14 @@ int main() {
     glm::mat4 P = glm::perspective(glm::radians(45.0F),
                                             static_cast<float>(width) / static_cast<float>(height),
                                             0.1F, 100.0F);
+    glUniformMatrix4fv(program.GetUniformLocation("projection"), 1, false, glm::value_ptr(P));
 
     // Set view matrix
     glm::mat4 V = engine.GetCamera().CalcViewMatrix();
+    glUniformMatrix4fv(program.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
 
-    // Get default scene
-    if (model.GetGltf().scene_.has_value()) {
-      int default_scene_index = model.GetGltf().scene_.value();
-
-      // Get nodes from default scene
-      const auto& node_indices = model.GetGltf().scenes_[default_scene_index].nodes_;
-
-      // Iterate through nodes
-      for (int node_index : node_indices) {
-        const auto& node = model.GetGltf().nodes_[node_index];
-
-        // Mesh
-        if (node.mesh_.has_value()) {
-          int mesh_index = node.mesh_.value();
-          const auto& mesh = model.GetGltf().meshes_[mesh_index];
-
-          // Mesh primitive
-          for (const auto& mesh_primitive : mesh.primitives_) {
-            // Use program
-            unsigned int program_id = default_program.GetProgram();
-            glUseProgram(program_id);
-
-            // Set transformation matrices
-            glUniformMatrix4fv(default_program.GetUniformLocation("projection"), 1, false, glm::value_ptr(P));
-            glUniformMatrix4fv(default_program.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
-            glm::mat4 M(1.0F);
-            glUniformMatrix4fv(default_program.GetUniformLocation("model"), 1, false, glm::value_ptr(M));
-
-            // Bind VAO
-            glBindVertexArray(mesh_primitive.vao_);
-
-            // Render indexed geometry
-            if (mesh_primitive.indices_.has_value()) {
-              const auto& accessor = model.GetGltf().accessors_[mesh_primitive.indices_.value()];
-
-              glDrawElements(mesh_primitive.mode_.value_or(4),
-                             accessor.count_,
-                             accessor.component_type_,
-                             static_cast<char*>(nullptr) + accessor.byte_offset_.value_or(0));
-            }
-
-            // Render non-indexed geometry
-            else {
-              // Render non-indexed geometry
-              const auto& accessor = model.GetGltf().accessors_[mesh_primitive.attributes_.at("POSITION")];
-              glDrawArrays(mesh_primitive.mode_.value_or(4), 0, accessor.count_);
-            }
-          }
-        }
-        // TO-DO : Apply transformation matrices of parent nodes
-        // TO-DO : Iterate through children nodes
-      }
-    }
+    // Render model
+    model.Render(program);
 
     // Swap buffers
     glfwSwapBuffers(window);
