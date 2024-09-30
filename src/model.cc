@@ -217,7 +217,11 @@ void Model::RenderNode(renderer::Program& program, const gltf::Node& node, const
   // Obtain transformation matrix
   glm::mat4 matrix;
   if (node.matrix_.has_value()) {
-    // ??
+    for (int r = 0; r < 4; r++) {
+      for (int c = 0; c < 4; c++) {
+        matrix[r][c] = node.matrix_.value()[4 * r + c];
+      }
+    }
   } else {
     matrix = glm::mat4(1.0F);
 

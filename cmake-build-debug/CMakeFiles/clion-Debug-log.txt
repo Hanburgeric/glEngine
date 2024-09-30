@@ -14,6 +14,6 @@ CMake Deprecation Warning:
 -- GLM: Version 1.0.1
 -- GLM: Build with C++ features auto detection
 -- Using the multi-header code from C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/
--- Configuring done (0.3s)
--- Generating done (0.1s)
+-- Configuring done (0.7s)
+-- Generating done (0.2s)
 -- Build files have been written to: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug

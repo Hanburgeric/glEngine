@@ -102,8 +102,10 @@ int main() {
   // TO-DO : each model should have its own camera position/sensitivity, as well as a dedicated shader
 //  glEngine::Model model("../assets/ABeautifulGame/glTF/ABeautifulGame.gltf");
 //  glEngine::Model model("../assets/BrainStem/glTF/BrainStem.gltf");
-  glEngine::Model model("../assets/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf");
-//  glEngine::Model model("../assets/DamagedHelmet/glTF/DamagedHelmet.gltf");
+//  glEngine::Model model("../assets/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf");
+  glEngine::Model model("../assets/DamagedHelmet/glTF/DamagedHelmet.gltf");
+//  glEngine::Model model("../assets/NodePerformanceTest/glTF/NodePerformanceTest.gltf");
+//  glEngine::Model model("../assets/Sponza/glTF/Sponza.gltf");
 //  glEngine::Model model("../assets/Triangle/glTF/Triangle.gltf");
 //  glEngine::Model model("../assets/TriangleWithoutindices/glTF/TriangleWithoutIndices.gltf");
 //  glEngine::Model model("../assets/VirtualCity/glTF/VirtualCity.gltf");
