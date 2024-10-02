@@ -21,8 +21,10 @@ set(SRC src/engine/camera.cc src/engine/camera.h
         src/engine/engine.cc src/engine/engine.h
         src/engine/importer.cc src/engine/importer.h
         src/engine/input_handler.cc src/engine/input_handler.h
-        src/engine/renderer/program.cc src/engine/renderer/program.h
-        src/engine/renderer/shader.cc src/engine/renderer/shader.h
+        src/engine/model.cc src/engine/model.h
+        src/engine/program.cc src/engine/program.h
+        src/engine/shader.cc src/engine/shader.h
+        src/engine/utils.cc src/engine/utils.h
         src/gltf/accessor.h
         src/gltf/buffer.h
         src/gltf/buffer_view.h
@@ -30,8 +32,6 @@ set(SRC src/engine/camera.cc src/engine/camera.h
         src/gltf/mesh.h
         src/gltf/node.h
         src/gltf/scene.h
-        src/model.cc src/model.h
-        src/utils.cc src/utils.h
 )
 
 add_executable(${PROJECT_NAME} ${GLAD} ${SRC} main.cc)

@@ -8,12 +8,11 @@
 #include "glm/vec3.hpp"
 
 namespace glEngine {
-Camera::Camera() {
-  position_ = glm::vec3(0.0F, 0.0F, 5.0F);
-  pitch_ = 0.0F;
-  yaw_ = 270.0F;
-  roll_ = 0.0F;
-
+Camera::Camera()
+    : position_(glm::vec3(0.0F, 0.0F, 5.0F)),
+      pitch_(0.0F),
+      yaw_(270.0F),
+      roll_(0.0F) {
   Update();
 }
 

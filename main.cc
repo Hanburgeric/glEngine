@@ -12,10 +12,10 @@
 #include "glm/vec3.hpp"
 
 // User headers
-#include "src/model.h"
+#include "src/engine/model.h"
 #include "src/engine/engine.h"
-#include "src/engine/renderer/program.h"
-#include "src/engine/renderer/shader.h"
+#include "src/engine/program.h"
+#include "src/engine/shader.h"
 
 // OpenGL callback functions
 namespace gl {

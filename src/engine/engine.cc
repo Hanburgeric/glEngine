@@ -42,12 +42,9 @@ void Engine::Update() {
 
   // Input Handler
   input_handler_.Update();
-
-  // ???
 }
 
 void Engine::Render() {
-  // ???
 }
 
 const Camera& Engine::GetCamera() const {

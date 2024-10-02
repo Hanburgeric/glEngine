@@ -345,101 +345,101 @@ src/engine/input_handler.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_handler.cc.s
 .PHONY : src/engine/input_handler.cc.s
 
-src/engine/renderer/program.obj: src/engine/renderer/program.cc.obj
-.PHONY : src/engine/renderer/program.obj
+src/engine/model.obj: src/engine/model.cc.obj
+.PHONY : src/engine/model.obj
 
 # target to build an object file
-src/engine/renderer/program.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.obj
-.PHONY : src/engine/renderer/program.cc.obj
+src/engine/model.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/model.cc.obj
+.PHONY : src/engine/model.cc.obj
 
-src/engine/renderer/program.i: src/engine/renderer/program.cc.i
-.PHONY : src/engine/renderer/program.i
+src/engine/model.i: src/engine/model.cc.i
+.PHONY : src/engine/model.i
 
 # target to preprocess a source file
-src/engine/renderer/program.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.i
-.PHONY : src/engine/renderer/program.cc.i
+src/engine/model.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/model.cc.i
+.PHONY : src/engine/model.cc.i
 
-src/engine/renderer/program.s: src/engine/renderer/program.cc.s
-.PHONY : src/engine/renderer/program.s
+src/engine/model.s: src/engine/model.cc.s
+.PHONY : src/engine/model.s
 
 # target to generate assembly for a file
-src/engine/renderer/program.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/program.cc.s
-.PHONY : src/engine/renderer/program.cc.s
+src/engine/model.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/model.cc.s
+.PHONY : src/engine/model.cc.s
 
-src/engine/renderer/shader.obj: src/engine/renderer/shader.cc.obj
-.PHONY : src/engine/renderer/shader.obj
+src/engine/program.obj: src/engine/program.cc.obj
+.PHONY : src/engine/program.obj
 
 # target to build an object file
-src/engine/renderer/shader.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.obj
-.PHONY : src/engine/renderer/shader.cc.obj
+src/engine/program.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/program.cc.obj
+.PHONY : src/engine/program.cc.obj
 
-src/engine/renderer/shader.i: src/engine/renderer/shader.cc.i
-.PHONY : src/engine/renderer/shader.i
+src/engine/program.i: src/engine/program.cc.i
+.PHONY : src/engine/program.i
 
 # target to preprocess a source file
-src/engine/renderer/shader.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.i
-.PHONY : src/engine/renderer/shader.cc.i
+src/engine/program.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/program.cc.i
+.PHONY : src/engine/program.cc.i
 
-src/engine/renderer/shader.s: src/engine/renderer/shader.cc.s
-.PHONY : src/engine/renderer/shader.s
+src/engine/program.s: src/engine/program.cc.s
+.PHONY : src/engine/program.s
 
 # target to generate assembly for a file
-src/engine/renderer/shader.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/renderer/shader.cc.s
-.PHONY : src/engine/renderer/shader.cc.s
+src/engine/program.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/program.cc.s
+.PHONY : src/engine/program.cc.s
 
-src/model.obj: src/model.cc.obj
-.PHONY : src/model.obj
+src/engine/shader.obj: src/engine/shader.cc.obj
+.PHONY : src/engine/shader.obj
 
 # target to build an object file
-src/model.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/model.cc.obj
-.PHONY : src/model.cc.obj
+src/engine/shader.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/shader.cc.obj
+.PHONY : src/engine/shader.cc.obj
 
-src/model.i: src/model.cc.i
-.PHONY : src/model.i
+src/engine/shader.i: src/engine/shader.cc.i
+.PHONY : src/engine/shader.i
 
 # target to preprocess a source file
-src/model.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/model.cc.i
-.PHONY : src/model.cc.i
+src/engine/shader.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/shader.cc.i
+.PHONY : src/engine/shader.cc.i
 
-src/model.s: src/model.cc.s
-.PHONY : src/model.s
+src/engine/shader.s: src/engine/shader.cc.s
+.PHONY : src/engine/shader.s
 
 # target to generate assembly for a file
-src/model.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/model.cc.s
-.PHONY : src/model.cc.s
+src/engine/shader.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/shader.cc.s
+.PHONY : src/engine/shader.cc.s
 
-src/utils.obj: src/utils.cc.obj
-.PHONY : src/utils.obj
+src/engine/utils.obj: src/engine/utils.cc.obj
+.PHONY : src/engine/utils.obj
 
 # target to build an object file
-src/utils.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/utils.cc.obj
-.PHONY : src/utils.cc.obj
+src/engine/utils.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/utils.cc.obj
+.PHONY : src/engine/utils.cc.obj
 
-src/utils.i: src/utils.cc.i
-.PHONY : src/utils.i
+src/engine/utils.i: src/engine/utils.cc.i
+.PHONY : src/engine/utils.i
 
 # target to preprocess a source file
-src/utils.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/utils.cc.i
-.PHONY : src/utils.cc.i
+src/engine/utils.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/utils.cc.i
+.PHONY : src/engine/utils.cc.i
 
-src/utils.s: src/utils.cc.s
-.PHONY : src/utils.s
+src/engine/utils.s: src/engine/utils.cc.s
+.PHONY : src/engine/utils.s
 
 # target to generate assembly for a file
-src/utils.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/utils.cc.s
-.PHONY : src/utils.cc.s
+src/engine/utils.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/utils.cc.s
+.PHONY : src/engine/utils.cc.s
 
 vendor/glad/src/gl.obj: vendor/glad/src/gl.c.obj
 .PHONY : vendor/glad/src/gl.obj
@@ -497,18 +497,18 @@ help:
 	@echo ... src/engine/input_handler.obj
 	@echo ... src/engine/input_handler.i
 	@echo ... src/engine/input_handler.s
-	@echo ... src/engine/renderer/program.obj
-	@echo ... src/engine/renderer/program.i
-	@echo ... src/engine/renderer/program.s
-	@echo ... src/engine/renderer/shader.obj
-	@echo ... src/engine/renderer/shader.i
-	@echo ... src/engine/renderer/shader.s
-	@echo ... src/model.obj
-	@echo ... src/model.i
-	@echo ... src/model.s
-	@echo ... src/utils.obj
-	@echo ... src/utils.i
-	@echo ... src/utils.s
+	@echo ... src/engine/model.obj
+	@echo ... src/engine/model.i
+	@echo ... src/engine/model.s
+	@echo ... src/engine/program.obj
+	@echo ... src/engine/program.i
+	@echo ... src/engine/program.s
+	@echo ... src/engine/shader.obj
+	@echo ... src/engine/shader.i
+	@echo ... src/engine/shader.s
+	@echo ... src/engine/utils.obj
+	@echo ... src/engine/utils.i
+	@echo ... src/engine/utils.s
 	@echo ... vendor/glad/src/gl.obj
 	@echo ... vendor/glad/src/gl.i
 	@echo ... vendor/glad/src/gl.s

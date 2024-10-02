@@ -353,7 +353,7 @@ CMakeFiles/glEngine.dir/main.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/gtc/type_ptr.inl \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/model.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/model.h \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/json.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
@@ -494,18 +494,18 @@ CMakeFiles/glEngine.dir/main.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/any \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/macro_unscope.hpp \
  C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/renderer/program.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/renderer/shader.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/gltf.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/accessor.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/buffer.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/buffer_view.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/mesh.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/node.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/scene.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/gltf/node.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/program.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/shader.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/gltf.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/engine.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/camera.h \
  C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/input_handler.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/renderer/program.h \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/renderer/shader.h
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/program.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src/engine/shader.h

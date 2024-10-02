@@ -285,16 +285,28 @@
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/input_handler.h">
 			<Option target="glEngine"/>
 		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/program.cc">
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/model.cc">
 			<Option target="glEngine"/>
 		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/program.h">
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/model.h">
 			<Option target="glEngine"/>
 		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/shader.cc">
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/program.cc">
 			<Option target="glEngine"/>
 		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/renderer/shader.h">
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/program.h">
+			<Option target="glEngine"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/shader.cc">
+			<Option target="glEngine"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/shader.h">
+			<Option target="glEngine"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/utils.cc">
+			<Option target="glEngine"/>
+		</Unit>
+		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/engine/utils.h">
 			<Option target="glEngine"/>
 		</Unit>
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h">
@@ -316,18 +328,6 @@
 			<Option target="glEngine"/>
 		</Unit>
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/scene.h">
-			<Option target="glEngine"/>
-		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/model.cc">
-			<Option target="glEngine"/>
-		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/model.h">
-			<Option target="glEngine"/>
-		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/utils.cc">
-			<Option target="glEngine"/>
-		</Unit>
-		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/utils.h">
 			<Option target="glEngine"/>
 		</Unit>
 		<Unit filename="C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h">
