@@ -9,12 +9,12 @@
 // Vendor headers
 #include "glad/gl.h"
 
-namespace glEngine::renderer {
-Shader::Shader(GLenum shader_type, const std::string &file_name) {
-  // Create shader
-  shader_ = glCreateShader(shader_type);
+namespace glEngine {
+Shader::Shader(unsigned int shader_type) {
+  id_ = glCreateShader(shader_type);
+}
 
-  // Open shader file
+void Shader::AddSource(const std::string& file_name) {
   std::ifstream file(file_name);
 
   if (!file) {
@@ -22,38 +22,45 @@ Shader::Shader(GLenum shader_type, const std::string &file_name) {
     return;
   }
 
-  // Cache shader text
   std::stringstream stream;
   stream << file.rdbuf();
-  std::string str = stream.str();
-  const char* c_str = str.c_str();
+  (void)srcs_.emplace_back(stream.str());
+}
 
-  // Compile shader
-  glShaderSource(shader_, 1, &c_str, nullptr);
-  glCompileShader(shader_);
+Shader::~Shader() {
+  glDeleteShader(id_);
+}
 
-  // Log info
+void Shader::Compile() const {
+  // TODO : refactor O(n) space complexity
+  std::vector<const char*> c_srcs;
+  c_srcs.reserve(srcs_.size());
+  for (const auto& src : srcs_) {
+    (void)c_srcs.emplace_back(src.c_str());
+  }
+  glShaderSource(id_, c_srcs.size(), &c_srcs[0U], nullptr);
+  glCompileShader(id_);
+  PrintCompileStatus();
+}
+
+void Shader::PrintCompileStatus() const {
   int success;
-  glGetShaderiv(shader_, GL_COMPILE_STATUS, &success);
+  glGetShaderiv(id_, GL_COMPILE_STATUS, &success);
 
   if (!success) {
     int info_log_length;
-    glGetShaderiv(shader_, GL_INFO_LOG_LENGTH, &info_log_length);
+    glGetShaderiv(id_, GL_INFO_LOG_LENGTH, &info_log_length);
 
     std::string info_log;
     info_log.resize(info_log_length);
 
-    std::cerr << "Failed to compile shader file at " << file_name << std::endl;
-    glGetShaderInfoLog(shader_, info_log_length, nullptr, &info_log[0U]);
+    std::cerr << "Failed to compile shader" << std::endl;
+    glGetShaderInfoLog(id_, info_log_length, nullptr, &info_log[0U]);
     std::cerr << info_log << std::endl;
   }
 }
 
-Shader::~Shader() {
-  glDeleteShader(shader_);
-}
-
-unsigned int Shader::GetShader() const {
-  return shader_;
+unsigned int Shader::GetId() const {
+  return id_;
 }
 }

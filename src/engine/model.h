@@ -18,7 +18,7 @@ class Model {
  public:
   explicit Model(const std::string& file_path);
 
-  void Render(renderer::Program& program) const;
+  void Render(Program& program) const;
 
   void ImportModelFromFile(const std::string& file_path);
 
@@ -29,7 +29,7 @@ class Model {
 
   void Clear();
 
-  void RenderNode(renderer::Program& program, const gltf::Node& node, const glm::mat4& TRS) const;
+  void RenderNode(Program& program, const gltf::Node& node, const glm::mat4& TRS) const;
 
   std::string file_path_;
   nlohmann::json json_;

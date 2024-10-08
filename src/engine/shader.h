@@ -3,20 +3,29 @@
 
 // System headers
 #include <string>
+#include <vector>
 
 // Vendor headers
 #include "glad/gl.h"
 
-namespace glEngine::renderer {
+namespace glEngine {
 class Shader {
  public:
-  Shader(GLenum shader_type, const std::string& file_name);
+  Shader(unsigned int shader_type);
   ~Shader();
 
-  [[nodiscard]] unsigned int GetShader() const;
+  void AddSource(const std::string& file_name);
+
+  void Compile() const;
+
+  void PrintCompileStatus() const;
+
+  [[nodiscard]] unsigned int GetId() const;
 
  private:
-  unsigned int shader_;
+  unsigned int id_;
+
+  std::vector<std::string> srcs_;
 };
 }
 

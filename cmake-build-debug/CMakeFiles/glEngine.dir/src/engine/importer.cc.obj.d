@@ -1,7 +1,7 @@
 CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.cc \
- C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\importer.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/json.hpp \
+ C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\importer.cc \
+ C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\importer.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/json.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -17,19 +17,12 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/utility.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/concepts \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_types.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/iterator_concepts.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_cmp.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator_base_funcs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/concept_check.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ptr_traits.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/predefined_ops.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bit \
@@ -39,6 +32,9 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdlib \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stdlib.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -58,34 +54,22 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_base.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/max_size_type.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numbers \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstddef \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stddef.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stddef.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/binders.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/invoke.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/functional_hash.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hash_bytes.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/refwrap.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/unordered_map \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unordered_map.h \
@@ -98,6 +82,7 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocator.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/new_allocator.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/node_handle.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/range_access.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
@@ -109,8 +94,7 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/move_only_function.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/mofunc_impl.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/postypes.h \
@@ -168,6 +152,10 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/system_error \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/nested_exception.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/streambuf.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/memory \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
@@ -175,17 +163,6 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
@@ -193,16 +170,13 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_atomic.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_base.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_lockfree_defines.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/atomic_wait.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_mutex.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_uninitialized.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/utility \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/adl_serializer.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/abi_macros.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/from_json.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/adl_serializer.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/abi_macros.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/from_json.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/forward_list \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/forward_list.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/forward_list.tcc \
@@ -236,30 +210,30 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/gslice_array.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/mask_array.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/indirect_array.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/exceptions.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/value_t.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/exceptions.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/value_t.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/macro_scope.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/detected.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/void_t.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/macro_scope.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/detected.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/void_t.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/thirdparty/hedley/hedley.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/version \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/assert.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/string_escape.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/position_t.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/cpp_future.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/type_traits.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/call_std/end.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/json_fwd.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/string_concat.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/string_escape.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/position_t.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/cpp_future.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/type_traits.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/call_std/begin.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/call_std/end.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/json_fwd.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/string_concat.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/identity_tag.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/std_fs.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/identity_tag.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/std_fs.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
@@ -268,6 +242,12 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/wctype.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
@@ -278,53 +258,56 @@ CMakeFiles/glEngine.dir/src/engine/importer.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/to_json.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ranges \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
- C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/hash.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/binary_reader.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/input_adapters.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/to_json.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/byte_container_with_subtype.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/hash.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/binary_reader.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/input_adapters.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/json_sax.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/lexer.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/is_sax.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/parser.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_custom_base_class.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_pointer.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_ref.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/binary_writer.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/output_adapters.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/serializer.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/to_chars.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/ordered_map.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/json_sax.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/lexer.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/meta/is_sax.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/input/parser.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/iter_impl.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_custom_base_class.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_pointer.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/json_ref.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/binary_writer.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/output_adapters.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/output/serializer.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/conversions/to_chars.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/ordered_map.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/any \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/macro_unscope.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/gltf.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
- C:/Users/hanwe/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/detail/macro_unscope.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/json-3.11.3/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/gltf.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/accessor.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/buffer.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/buffer_view.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/mesh.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/node.h \
+ C:/Users/Hanu/OneDrive/CLionProjects/glEngine/src/gltf/scene.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream

@@ -10,6 +10,7 @@ class Camera {
  public:
   // Constructor
   Camera();
+  Camera(const glm::vec3& position, float pitch, float yaw);
 
   // Update
   void Update();
@@ -23,9 +24,6 @@ class Camera {
 
   [[nodiscard]] float GetYaw() const;
   float& SetYaw();
-
-  [[nodiscard]] float GetRoll() const;
-  float& SetRoll();
 
   [[nodiscard]] const glm::vec3& GetFront() const;
 
@@ -41,7 +39,6 @@ class Camera {
 
   float pitch_;
   float yaw_;
-  float roll_;
 
   glm::vec3 front_;
   glm::vec3 right_;

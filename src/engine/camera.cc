@@ -11,8 +11,14 @@ namespace glEngine {
 Camera::Camera()
     : position_(glm::vec3(0.0F, 0.0F, 5.0F)),
       pitch_(0.0F),
-      yaw_(270.0F),
-      roll_(0.0F) {
+      yaw_(270.0F) {
+  Update();
+}
+
+Camera::Camera(const glm::vec3& position, float pitch, float yaw)
+    : position_(position),
+      pitch_(pitch),
+      yaw_(yaw) {
   Update();
 }
 
@@ -47,14 +53,6 @@ float Camera::GetYaw() const {
 
 float& Camera::SetYaw() {
   return yaw_;
-}
-
-float Camera::GetRoll() const {
-  return roll_;
-}
-
-float& Camera::SetRoll() {
-  return roll_;
 }
 
 const glm::vec3& Camera::GetFront() const {

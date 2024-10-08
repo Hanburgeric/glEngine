@@ -3,12 +3,12 @@
 
 // User headers
 #include "camera.h"
-#include "input_handler.h"
+#include "input_manager.h"
 
 namespace glEngine {
 class Engine {
  public:
-  // Handle events
+  // Events
   void OnCursorPos(double xpos, double ypos);
   void OnKey(int key, int action);
   void OnMouseButton(int button, int action);
@@ -24,9 +24,12 @@ class Engine {
   const Camera& GetCamera() const;
 
  private:
-  InputHandler input_handler_;
-
   Camera camera_;
+  float camera_rotate_speed_ = 0.08F;
+  float camera_move_speed_ = 0.01F;
+  float camera_zoom_speed_ = 0.64F;
+
+  InputManager input_manager_;
 };
 }
 

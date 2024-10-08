@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine
+CMAKE_SOURCE_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -273,6 +273,30 @@ src/engine/camera.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/camera.cc.s
 .PHONY : src/engine/camera.cc.s
 
+src/engine/cube.obj: src/engine/cube.cc.obj
+.PHONY : src/engine/cube.obj
+
+# target to build an object file
+src/engine/cube.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/cube.cc.obj
+.PHONY : src/engine/cube.cc.obj
+
+src/engine/cube.i: src/engine/cube.cc.i
+.PHONY : src/engine/cube.i
+
+# target to preprocess a source file
+src/engine/cube.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/cube.cc.i
+.PHONY : src/engine/cube.cc.i
+
+src/engine/cube.s: src/engine/cube.cc.s
+.PHONY : src/engine/cube.s
+
+# target to generate assembly for a file
+src/engine/cube.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/cube.cc.s
+.PHONY : src/engine/cube.cc.s
+
 src/engine/engine.obj: src/engine/engine.cc.obj
 .PHONY : src/engine/engine.obj
 
@@ -321,29 +345,77 @@ src/engine/importer.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/importer.cc.s
 .PHONY : src/engine/importer.cc.s
 
-src/engine/input_handler.obj: src/engine/input_handler.cc.obj
-.PHONY : src/engine/input_handler.obj
+src/engine/input_manager.obj: src/engine/input_manager.cc.obj
+.PHONY : src/engine/input_manager.obj
 
 # target to build an object file
-src/engine/input_handler.cc.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_handler.cc.obj
-.PHONY : src/engine/input_handler.cc.obj
+src/engine/input_manager.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_manager.cc.obj
+.PHONY : src/engine/input_manager.cc.obj
 
-src/engine/input_handler.i: src/engine/input_handler.cc.i
-.PHONY : src/engine/input_handler.i
+src/engine/input_manager.i: src/engine/input_manager.cc.i
+.PHONY : src/engine/input_manager.i
 
 # target to preprocess a source file
-src/engine/input_handler.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_handler.cc.i
-.PHONY : src/engine/input_handler.cc.i
+src/engine/input_manager.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_manager.cc.i
+.PHONY : src/engine/input_manager.cc.i
 
-src/engine/input_handler.s: src/engine/input_handler.cc.s
-.PHONY : src/engine/input_handler.s
+src/engine/input_manager.s: src/engine/input_manager.cc.s
+.PHONY : src/engine/input_manager.s
 
 # target to generate assembly for a file
-src/engine/input_handler.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_handler.cc.s
-.PHONY : src/engine/input_handler.cc.s
+src/engine/input_manager.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/input_manager.cc.s
+.PHONY : src/engine/input_manager.cc.s
+
+src/engine/material.obj: src/engine/material.cc.obj
+.PHONY : src/engine/material.obj
+
+# target to build an object file
+src/engine/material.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/material.cc.obj
+.PHONY : src/engine/material.cc.obj
+
+src/engine/material.i: src/engine/material.cc.i
+.PHONY : src/engine/material.i
+
+# target to preprocess a source file
+src/engine/material.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/material.cc.i
+.PHONY : src/engine/material.cc.i
+
+src/engine/material.s: src/engine/material.cc.s
+.PHONY : src/engine/material.s
+
+# target to generate assembly for a file
+src/engine/material.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/material.cc.s
+.PHONY : src/engine/material.cc.s
+
+src/engine/mesh.obj: src/engine/mesh.cc.obj
+.PHONY : src/engine/mesh.obj
+
+# target to build an object file
+src/engine/mesh.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/mesh.cc.obj
+.PHONY : src/engine/mesh.cc.obj
+
+src/engine/mesh.i: src/engine/mesh.cc.i
+.PHONY : src/engine/mesh.i
+
+# target to preprocess a source file
+src/engine/mesh.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/mesh.cc.i
+.PHONY : src/engine/mesh.cc.i
+
+src/engine/mesh.s: src/engine/mesh.cc.s
+.PHONY : src/engine/mesh.s
+
+# target to generate assembly for a file
+src/engine/mesh.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/mesh.cc.s
+.PHONY : src/engine/mesh.cc.s
 
 src/engine/model.obj: src/engine/model.cc.obj
 .PHONY : src/engine/model.obj
@@ -368,6 +440,30 @@ src/engine/model.s: src/engine/model.cc.s
 src/engine/model.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/model.cc.s
 .PHONY : src/engine/model.cc.s
+
+src/engine/primitive.obj: src/engine/primitive.cc.obj
+.PHONY : src/engine/primitive.obj
+
+# target to build an object file
+src/engine/primitive.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/primitive.cc.obj
+.PHONY : src/engine/primitive.cc.obj
+
+src/engine/primitive.i: src/engine/primitive.cc.i
+.PHONY : src/engine/primitive.i
+
+# target to preprocess a source file
+src/engine/primitive.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/primitive.cc.i
+.PHONY : src/engine/primitive.cc.i
+
+src/engine/primitive.s: src/engine/primitive.cc.s
+.PHONY : src/engine/primitive.s
+
+# target to generate assembly for a file
+src/engine/primitive.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/primitive.cc.s
+.PHONY : src/engine/primitive.cc.s
 
 src/engine/program.obj: src/engine/program.cc.obj
 .PHONY : src/engine/program.obj
@@ -416,6 +512,30 @@ src/engine/shader.s: src/engine/shader.cc.s
 src/engine/shader.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/shader.cc.s
 .PHONY : src/engine/shader.cc.s
+
+src/engine/texture.obj: src/engine/texture.cc.obj
+.PHONY : src/engine/texture.obj
+
+# target to build an object file
+src/engine/texture.cc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/texture.cc.obj
+.PHONY : src/engine/texture.cc.obj
+
+src/engine/texture.i: src/engine/texture.cc.i
+.PHONY : src/engine/texture.i
+
+# target to preprocess a source file
+src/engine/texture.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/texture.cc.i
+.PHONY : src/engine/texture.cc.i
+
+src/engine/texture.s: src/engine/texture.cc.s
+.PHONY : src/engine/texture.s
+
+# target to generate assembly for a file
+src/engine/texture.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glEngine.dir\build.make CMakeFiles/glEngine.dir/src/engine/texture.cc.s
+.PHONY : src/engine/texture.cc.s
 
 src/engine/utils.obj: src/engine/utils.cc.obj
 .PHONY : src/engine/utils.obj
@@ -488,24 +608,39 @@ help:
 	@echo ... src/engine/camera.obj
 	@echo ... src/engine/camera.i
 	@echo ... src/engine/camera.s
+	@echo ... src/engine/cube.obj
+	@echo ... src/engine/cube.i
+	@echo ... src/engine/cube.s
 	@echo ... src/engine/engine.obj
 	@echo ... src/engine/engine.i
 	@echo ... src/engine/engine.s
 	@echo ... src/engine/importer.obj
 	@echo ... src/engine/importer.i
 	@echo ... src/engine/importer.s
-	@echo ... src/engine/input_handler.obj
-	@echo ... src/engine/input_handler.i
-	@echo ... src/engine/input_handler.s
+	@echo ... src/engine/input_manager.obj
+	@echo ... src/engine/input_manager.i
+	@echo ... src/engine/input_manager.s
+	@echo ... src/engine/material.obj
+	@echo ... src/engine/material.i
+	@echo ... src/engine/material.s
+	@echo ... src/engine/mesh.obj
+	@echo ... src/engine/mesh.i
+	@echo ... src/engine/mesh.s
 	@echo ... src/engine/model.obj
 	@echo ... src/engine/model.i
 	@echo ... src/engine/model.s
+	@echo ... src/engine/primitive.obj
+	@echo ... src/engine/primitive.i
+	@echo ... src/engine/primitive.s
 	@echo ... src/engine/program.obj
 	@echo ... src/engine/program.i
 	@echo ... src/engine/program.s
 	@echo ... src/engine/shader.obj
 	@echo ... src/engine/shader.i
 	@echo ... src/engine/shader.s
+	@echo ... src/engine/texture.obj
+	@echo ... src/engine/texture.i
+	@echo ... src/engine/texture.s
 	@echo ... src/engine/utils.obj
 	@echo ... src/engine/utils.i
 	@echo ... src/engine/utils.s

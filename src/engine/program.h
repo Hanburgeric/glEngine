@@ -2,25 +2,31 @@
 #define GLENGINE_SRC_ENGINE_PROGRAM_H_
 
 // System headers
-#include <initializer_list>
 #include <string>
 #include <unordered_map>
 
 // User headers
 #include "shader.h"
 
-namespace glEngine::renderer {
+namespace glEngine {
 class Program {
  public:
-  Program(const std::initializer_list<Shader>& shaders);
+  Program();
   ~Program();
 
-  [[nodiscard]] unsigned int GetProgram() const;
+  void AddShader(const Shader& shader);
+
+  void Link() const;
+
+  void PrintLinkStatus() const;
+
+  [[nodiscard]] unsigned int GetId() const;
 
   int GetUniformLocation(const std::string& name);
 
  private:
-  unsigned int program_;
+  unsigned int id_;
+
   std::unordered_map<std::string, int> uniforms_;
 };
 }

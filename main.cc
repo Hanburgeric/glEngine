@@ -1,3 +1,5 @@
+#define STB_IMAGE_IMPLEMENTATION
+
 // System headers
 #include <iostream>
 
@@ -10,12 +12,15 @@
 #include "glm/mat4x4.hpp"
 #include "glm/trigonometric.hpp"
 #include "glm/vec3.hpp"
+#include "stb_image.h"
 
 // User headers
+#include "src/engine/cube.h"
 #include "src/engine/model.h"
 #include "src/engine/engine.h"
 #include "src/engine/program.h"
 #include "src/engine/shader.h"
+#include "src/engine/texture.h"
 
 // OpenGL callback functions
 namespace gl {
@@ -84,31 +89,48 @@ int main() {
   glEnable(GL_CULL_FACE);
   glEnable(GL_DEPTH_TEST);
 
+  // Flip images for OpenGL
+  stbi_set_flip_vertically_on_load(true);
+
   // Create engine instance and link with window
   glEngine::Engine engine;
   glfwSetWindowUserPointer(window, &engine);
 
   // Load shaders
-  glEngine::renderer::Shader vertex(GL_VERTEX_SHADER, "../shaders/default.vert");
-  glEngine::renderer::Shader fragment(GL_FRAGMENT_SHADER, "../shaders/default.frag");
+  glEngine::Shader vert(GL_VERTEX_SHADER);
+  vert.AddSource("../shaders/vert.glsl");
+  vert.Compile();
+
+  glEngine::Shader frag(GL_FRAGMENT_SHADER);
+  frag.AddSource("../shaders/frag.glsl");
+  frag.Compile();
 
   // Link shaders
-  glEngine::renderer::Program program({vertex, fragment});
+  glEngine::Program prog;
+  prog.AddShader(vert);
+  prog.AddShader(frag);
+  prog.Link();
+
+  // Cubes
+  std::vector<glEngine::Cube> cubes;
+  cubes.reserve(10U);
+  (void)cubes.emplace_back(glm::vec3( 0.0F,  0.0F,  0.0F ));
+  (void)cubes.emplace_back(glm::vec3( 2.0F,  5.0F, -15.0F));
+  (void)cubes.emplace_back(glm::vec3(-1.5F, -2.2F, -2.5F ));
+  (void)cubes.emplace_back(glm::vec3(-3.8F, -2.0F, -12.3F));
+  (void)cubes.emplace_back(glm::vec3( 2.4F, -0.4F, -3.5F ));
+  (void)cubes.emplace_back(glm::vec3(-1.7F,  3.0F, -7.5F ));
+  (void)cubes.emplace_back(glm::vec3( 1.3F, -2.0F, -2.5F ));
+  (void)cubes.emplace_back(glm::vec3( 1.5F,  2.0F, -2.5F ));
+  (void)cubes.emplace_back(glm::vec3( 1.5F,  0.2F, -1.5F ));
+  (void)cubes.emplace_back(glm::vec3(-1.3F,  1.0F, -1.5F ));
+
+  // Textures
+  glEngine::Texture tex;
+  tex.LoadImage("../assets/BoxTextured/glTF/CesiumLogoFlat.png");
 
   // Use program
-  glUseProgram(program.GetProgram());
-
-  // Load glTF
-  // TO-DO : each model should have its own camera position/sensitivity, as well as a dedicated shader
-//  glEngine::Model model("../assets/ABeautifulGame/glTF/ABeautifulGame.gltf");
-//  glEngine::Model model("../assets/BrainStem/glTF/BrainStem.gltf");
-//  glEngine::Model model("../assets/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf");
-  glEngine::Model model("../assets/DamagedHelmet/glTF/DamagedHelmet.gltf");
-//  glEngine::Model model("../assets/NodePerformanceTest/glTF/NodePerformanceTest.gltf");
-//  glEngine::Model model("../assets/Sponza/glTF/Sponza.gltf");
-//  glEngine::Model model("../assets/Triangle/glTF/Triangle.gltf");
-//  glEngine::Model model("../assets/TriangleWithoutindices/glTF/TriangleWithoutIndices.gltf");
-//  glEngine::Model model("../assets/VirtualCity/glTF/VirtualCity.gltf");
+  glUseProgram(prog.GetId());
 
   // Main loop
   while (!glfwWindowShouldClose(window)) {
@@ -122,6 +144,9 @@ int main() {
     glClearColor(0.0F, 0.0F, 0.0F, 1.0F);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+    // Use program
+    glUseProgram(prog.GetId());
+
     // Set projection matrix
     int width;
     int height;
@@ -129,14 +154,29 @@ int main() {
     glm::mat4 P = glm::perspective(glm::radians(45.0F),
                                             static_cast<float>(width) / static_cast<float>(height),
                                             0.1F, 100.0F);
-    glUniformMatrix4fv(program.GetUniformLocation("projection"), 1, false, glm::value_ptr(P));
+    glUniformMatrix4fv(prog.GetUniformLocation("projection"), 1, false, glm::value_ptr(P));
 
     // Set view matrix
     glm::mat4 V = engine.GetCamera().CalcViewMatrix();
-    glUniformMatrix4fv(program.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
+    glUniformMatrix4fv(prog.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
 
-    // Render model
-    model.Render(program);
+    // Set texture(s)
+    glUniform1i(prog.GetUniformLocation("tex"), tex.GetId());
+    glActiveTexture(GL_TEXTURE0 + tex.GetId());
+    glBindTexture(GL_TEXTURE_2D, tex.GetId());
+
+    // Set model matrix
+    for (std::size_t i = 0U; i < cubes.size(); i++) {
+      glBindVertexArray(cubes[i].GetId());
+
+      glm::mat4 M(1.0F);
+      M = glm::translate(M, cubes[i].GetPosition());
+      M = glm::rotate(M, glm::radians(20.0F * i), glm::vec3(1.0F, 0.3F, 0.5F));
+      glUniformMatrix4fv(prog.GetUniformLocation("model"), 1, false, glm::value_ptr(M));
+
+      // Draw cubes
+      cubes[i].Render();
+    }
 
     // Swap buffers
     glfwSwapBuffers(window);

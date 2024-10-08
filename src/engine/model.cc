@@ -31,7 +31,7 @@ Model::Model(const std::string& file_path) {
   ImportModelFromFile(file_path);
 }
 
-void Model::Render(renderer::Program& program) const {
+void Model::Render(Program& program) const {
   // Get default scene
   if (gltf_.scene_.has_value()) {
     int scene = gltf_.scene_.value();
@@ -213,7 +213,7 @@ void Model::Clear() {
   gltf_.scenes_.clear();
 }
 
-void Model::RenderNode(renderer::Program& program, const gltf::Node& node, const glm::mat4x4& TRS) const {
+void Model::RenderNode(Program& program, const gltf::Node& node, const glm::mat4x4& TRS) const {
   // Obtain transformation matrix
   glm::mat4 matrix;
   if (node.matrix_.has_value()) {
