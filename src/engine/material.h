@@ -12,7 +12,7 @@ class Material {
  public:
 
  private:
-  // Albedo
+  // Base color
   glm::vec4 base_color_factor_;
   Texture base_color_texture_;
   unsigned int base_color_tex_coord_;

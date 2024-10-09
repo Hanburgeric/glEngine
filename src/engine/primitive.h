@@ -26,7 +26,7 @@ struct Vertex {
 
 class Primitive {
  public:
-  explicit Primitive(const glm::vec3& position = glm::vec3());
+  Primitive();
   ~Primitive();
 
   void Setup() const;
@@ -34,23 +34,15 @@ class Primitive {
   void CalcNormals();
   void CalcTangents();
 
-  [[nodiscard]] unsigned int GetId() const;
-
-  [[nodiscard]] const glm::vec3& GetPosition() const;
-
   void Render() const;
 
  protected:
   std::vector<Vertex> vertices_;
   std::vector<glm::uvec3> indices_;
-  Material material_;
-  unsigned int mode_{4U};
 
   unsigned int vao_;
   unsigned int vbo_;
   unsigned int ebo_;
-
-  glm::vec3 position_;
 };
 }
 

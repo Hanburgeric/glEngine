@@ -1,6 +1,6 @@
 CMakeFiles/glEngine.dir/src/engine/primitive.cc.obj: \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\primitive.cc \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\primitive.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\primitive.cc \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\primitive.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/compare \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/initializer_list \
@@ -63,11 +63,11 @@ CMakeFiles/glEngine.dir/src/engine/primitive.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/qualifier.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/setup.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/qualifier.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/setup.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cassert \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/assert.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdlib.h \
@@ -82,53 +82,53 @@ CMakeFiles/glEngine.dir/src/engine/primitive.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/mm_malloc.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/errno.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_abs.h \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/simd/platform.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/simd/platform.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec2.inl \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/compute_vector_relational.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec2.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/compute_vector_relational.hpp \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool2_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float2_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double2_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int2_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/scalar_int_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/setup.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint2.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint2_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/scalar_uint_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec3.inl \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool3_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float3_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double3_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int3_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint3.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint3_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec4.inl \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool4_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float4_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double4_precision.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int4_sized.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint4.hpp \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint4_sized.hpp \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\material.h \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\texture.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool2_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float2_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double2_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int2_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/scalar_int_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/setup.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint2.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint2_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/scalar_uint_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec3.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool3_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float3_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double3_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int3_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint3.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint3_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vec4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec4.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_bool4_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_float4_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_double4_precision.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_int4_sized.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint4.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/ext/vector_uint4_sized.hpp \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\material.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\texture.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stringfwd.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/char_traits.h \
@@ -159,5 +159,34 @@ CMakeFiles/glEngine.dir/src/engine/primitive.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cerrno \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/charconv.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_string.tcc \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glad/include/KHR/khrplatform.h
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/KHR/khrplatform.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/geometric.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/func_geometric.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/exponential.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec1.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/type_vec1.inl \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/math.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/func_exponential.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/vector_relational.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/setup.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/func_vector_relational.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/_vectorize.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/common.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/_fixes.hpp \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/func_common.inl \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm/detail/compute_common.hpp

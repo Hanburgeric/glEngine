@@ -10,7 +10,7 @@
 namespace glEngine {
 class Cube : public Primitive {
  public:
-  explicit Cube(const glm::vec3 &position = glm::vec3());
+  Cube();
 };
 }
 

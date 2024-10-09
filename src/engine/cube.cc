@@ -13,8 +13,22 @@
 #include "primitive.h"
 
 namespace glEngine {
-Cube::Cube(const glm::vec3& position)
-    : Primitive(position) {
+Cube::Cube() {
+  // Indices setup
+  indices_.reserve(12U);
+  (void)indices_.emplace_back( 0U,  1U,  2U);
+  (void)indices_.emplace_back( 3U,  2U,  1U);
+  (void)indices_.emplace_back( 4U,  5U,  6U);
+  (void)indices_.emplace_back( 7U,  6U,  5U);
+  (void)indices_.emplace_back( 8U,  9U, 10U);
+  (void)indices_.emplace_back(11U, 10U,  9U);
+  (void)indices_.emplace_back(12U, 13U, 14U);
+  (void)indices_.emplace_back(15U, 14U, 13U);
+  (void)indices_.emplace_back(16U, 17U, 18U);
+  (void)indices_.emplace_back(19U, 18U, 17U);
+  (void)indices_.emplace_back(20U, 21U, 22U);
+  (void)indices_.emplace_back(23U, 22U, 21U);
+
   // Vertices setup
   vertices_.resize(24U);
 
@@ -84,21 +98,6 @@ Cube::Cube(const glm::vec3& position)
   // Joints
 
   // Weights
-
-  // Indices setup
-  indices_.reserve(12U);
-  (void)indices_.emplace_back( 0U,  1U,  2U);
-  (void)indices_.emplace_back( 3U,  2U,  1U);
-  (void)indices_.emplace_back( 4U,  5U,  6U);
-  (void)indices_.emplace_back( 7U,  6U,  5U);
-  (void)indices_.emplace_back( 8U,  9U, 10U);
-  (void)indices_.emplace_back(11U, 10U,  9U);
-  (void)indices_.emplace_back(12U, 13U, 14U);
-  (void)indices_.emplace_back(15U, 14U, 13U);
-  (void)indices_.emplace_back(16U, 17U, 18U);
-  (void)indices_.emplace_back(19U, 18U, 17U);
-  (void)indices_.emplace_back(20U, 21U, 22U);
-  (void)indices_.emplace_back(23U, 22U, 21U);
 
   // Initialize geometry data
   Setup();

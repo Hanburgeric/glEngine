@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine
+CMAKE_SOURCE_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include vendor/glfw-3.4/CMakeFiles/uninstall.dir/compiler_depend.make
 include vendor/glfw-3.4/CMakeFiles/uninstall.dir/progress.make
 
 vendor/glfw-3.4/CMakeFiles/uninstall:
-	cd /d C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Hanu/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4/cmake_uninstall.cmake
+	cd /d C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4/cmake_uninstall.cmake
 
 uninstall: vendor/glfw-3.4/CMakeFiles/uninstall
 uninstall: vendor/glfw-3.4/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ vendor/glfw-3.4/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : vendor/glfw-3.4/CMakeFiles/uninstall.dir/build
 
 vendor/glfw-3.4/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : vendor/glfw-3.4/CMakeFiles/uninstall.dir/clean
 
 vendor/glfw-3.4/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hanu\OneDrive\CLionProjects\glEngine C:\Users\Hanu\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4 C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hanwe\OneDrive\CLionProjects\glEngine C:\Users\hanwe\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4 C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4 C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : vendor/glfw-3.4/CMakeFiles/uninstall.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/docs
+# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

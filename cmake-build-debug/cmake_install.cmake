@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Hanu/OneDrive/CLionProjects/glEngine
+# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Hanu/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4/cmake_install.cmake")
-  include("C:/Users/Hanu/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glm-1.0.1/cmake_install.cmake")
-  include("C:/Users/Hanu/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/cmake_install.cmake")
+  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glfw-3.4/cmake_install.cmake")
+  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/glm-1.0.1/cmake_install.cmake")
+  include("C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/vendor/json-3.11.3/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Hanu/OneDrive/CLionProjects/glEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/hanwe/OneDrive/CLionProjects/glEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

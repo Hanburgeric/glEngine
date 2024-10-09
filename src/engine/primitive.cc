@@ -6,13 +6,13 @@
 
 // Vendor headers
 #include "glad/gl.h"
+#include "glm/geometric.hpp"
 #include "glm/vec2.hpp"
 #include "glm/vec3.hpp"
 #include "glm/vec4.hpp"
 
 namespace glEngine {
-Primitive::Primitive(const glm::vec3 &position)
-    : position_(position) {
+Primitive::Primitive() {
   glGenVertexArrays(1, &vao_);
   glGenBuffers(1, &vbo_);
   glGenBuffers(1, &ebo_);
@@ -98,26 +98,38 @@ void Primitive::Setup() const {
 }
 
 void Primitive::CalcNormals() {
+  for (auto& vertex : vertices_) {
+    vertex.normal_ = glm::vec3();
+  }
 
+  if (!indices_.empty()) {
+    for (const auto& index : indices_) {
+      auto xy = vertices_[index.y].position_ - vertices_[index.x].position_;
+      auto yz = vertices_[index.z].position_ - vertices_[index.y].position_;
+      auto zx = vertices_[index.x].position_ - vertices_[index.z].position_;
+      vertices_[index.x].normal_ += glm::cross(xy, -zx);
+      vertices_[index.y].normal_ += glm::cross(yz, -xy);
+      vertices_[index.z].normal_ += glm::cross(zx, -yz);
+    }
+  } else {
+    // Do unindexed geometry
+  }
+
+  for (auto& vertex : vertices_) {
+    vertex.normal_ = glm::normalize(vertex.normal_);
+  }
 }
 
 void Primitive::CalcTangents() {
 
 }
 
-unsigned int Primitive::GetId() const {
-  return vao_;
-}
-
-const glm::vec3 &Primitive::GetPosition() const {
-  return position_;
-}
-
 void Primitive::Render() const {
+  glBindVertexArray(vao_);
   if (!indices_.empty()) {
-    glDrawElements(mode_, indices_.size() * 3U, GL_UNSIGNED_INT, nullptr);
+    glDrawElements(4U, indices_.size() * 3U, GL_UNSIGNED_INT, nullptr);
   } else {
-    glDrawArrays(mode_, 0, indices_.size() * 3U);
+    glDrawArrays(4U, 0, vertices_.size());
   }
 }
 }

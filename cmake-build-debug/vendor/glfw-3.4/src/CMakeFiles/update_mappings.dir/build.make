@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine
+CMAKE_SOURCE_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug
 
 # Utility rule file for update_mappings.
 
@@ -66,8 +66,8 @@ include vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/progress.make
 
 vendor/glfw-3.4/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /d C:\Users\Hanu\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4\src && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /d C:\Users\hanwe\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4\src && "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glfw-3.4/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: vendor/glfw-3.4/src/CMakeFiles/update_mappings
 update_mappings: vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/build.make
@@ -78,10 +78,10 @@ vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/build
 
 vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean:
-	cd /d C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
+	cd /d C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
 .PHONY : vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/clean
 
 vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hanu\OneDrive\CLionProjects\glEngine C:\Users\Hanu\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4\src C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hanwe\OneDrive\CLionProjects\glEngine C:\Users\hanwe\OneDrive\CLionProjects\glEngine\vendor\glfw-3.4\src C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\vendor\glfw-3.4\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : vendor/glfw-3.4/src/CMakeFiles/update_mappings.dir/depend
 

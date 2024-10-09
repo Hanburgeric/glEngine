@@ -96,6 +96,37 @@ int main() {
   glEngine::Engine engine;
   glfwSetWindowUserPointer(window, &engine);
 
+  // Lights
+  glEngine::Shader point_light_vert(GL_VERTEX_SHADER);
+  point_light_vert.AddSource("../shaders/point_light_vert.glsl");
+  point_light_vert.Compile();
+
+  glEngine::Shader point_light_frag(GL_FRAGMENT_SHADER);
+  point_light_frag.AddSource("../shaders/point_light_frag.glsl");
+  point_light_frag.Compile();
+
+  glEngine::Program point_light_prog;
+  point_light_prog.AddShader(point_light_vert);
+  point_light_prog.AddShader(point_light_frag);
+  point_light_prog.Link();
+
+  std::array<glm::vec3, 4U> point_light_positions {
+      glm::vec3( 0.7F,  0.2F,  2.0F ),
+      glm::vec3( 2.3F, -3.3F, -4.0F ),
+      glm::vec3(-4.0F,  2.0F, -12.0F),
+      glm::vec3( 0.0F,  0.0F, -3.0F )
+  };
+
+  // Load model
+  glEngine::Cube cube;
+
+  // Laod textures
+  glEngine::Texture base_color_texture;
+  base_color_texture.LoadImage("../textures/container2.png");
+
+  glEngine::Texture specular_texture;
+  specular_texture.LoadImage("../textures/container2_specular.png");
+
   // Load shaders
   glEngine::Shader vert(GL_VERTEX_SHADER);
   vert.AddSource("../shaders/vert.glsl");
@@ -111,26 +142,56 @@ int main() {
   prog.AddShader(frag);
   prog.Link();
 
-  // Cubes
-  std::vector<glEngine::Cube> cubes;
-  cubes.reserve(10U);
-  (void)cubes.emplace_back(glm::vec3( 0.0F,  0.0F,  0.0F ));
-  (void)cubes.emplace_back(glm::vec3( 2.0F,  5.0F, -15.0F));
-  (void)cubes.emplace_back(glm::vec3(-1.5F, -2.2F, -2.5F ));
-  (void)cubes.emplace_back(glm::vec3(-3.8F, -2.0F, -12.3F));
-  (void)cubes.emplace_back(glm::vec3( 2.4F, -0.4F, -3.5F ));
-  (void)cubes.emplace_back(glm::vec3(-1.7F,  3.0F, -7.5F ));
-  (void)cubes.emplace_back(glm::vec3( 1.3F, -2.0F, -2.5F ));
-  (void)cubes.emplace_back(glm::vec3( 1.5F,  2.0F, -2.5F ));
-  (void)cubes.emplace_back(glm::vec3( 1.5F,  0.2F, -1.5F ));
-  (void)cubes.emplace_back(glm::vec3(-1.3F,  1.0F, -1.5F ));
-
-  // Textures
-  glEngine::Texture tex;
-  tex.LoadImage("../assets/BoxTextured/glTF/CesiumLogoFlat.png");
-
-  // Use program
+  // Set lighting data
   glUseProgram(prog.GetId());
+
+  glUniform3fv(prog.GetUniformLocation("direction_light.ambient_"), 1, glm::value_ptr(glm::vec3(0.05F, 0.05F, 0.05F)));
+  glUniform3fv(prog.GetUniformLocation("direction_light.diffuse_"), 1, glm::value_ptr(glm::vec3(0.4F, 0.4F, 0.4F)));
+  glUniform3fv(prog.GetUniformLocation("direction_light.specular_"), 1, glm::value_ptr(glm::vec3(0.5F, 0.5F, 0.5F)));
+  glUniform3fv(prog.GetUniformLocation("direction_light.direction_"), 1, glm::value_ptr(glm::vec3(-0.2F, -1.0F, -0.3F)));
+
+  for (std::size_t i = 0U; i < point_light_positions.size(); ++i) {
+    glUniform3fv(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].ambient_"), 1, glm::value_ptr(glm::vec3(0.05F, 0.05F, 0.05F)));
+    glUniform3fv(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].diffuse_"), 1, glm::value_ptr(glm::vec3(0.8F, 0.8F, 0.8F)));
+    glUniform3fv(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].specular_"), 1, glm::value_ptr(glm::vec3(1.0F, 1.0F, 1.0F)));
+    glUniform1f(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].constant_"), 1.0F);
+    glUniform1f(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].linear_"), 0.09F);
+    glUniform1f(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].quadratic_"), 0.032F);
+    glUniform3fv(prog.GetUniformLocation("point_lights[" + std::to_string(i) + "].position_"), 1, glm::value_ptr(point_light_positions[i]));
+  }
+
+  glUniform3fv(prog.GetUniformLocation("spot_light.ambient_"), 1, glm::value_ptr(glm::vec3(0.0F, 0.0F, 0.0F)));
+  glUniform3fv(prog.GetUniformLocation("spot_light.diffuse_"), 1, glm::value_ptr(glm::vec3(1.0F, 1.0F, 1.0F)));
+  glUniform3fv(prog.GetUniformLocation("spot_light.specular_"), 1, glm::value_ptr(glm::vec3(1.0F, 1.0F, 1.0F)));
+  glUniform1f(prog.GetUniformLocation("spot_light.constant_"), 1.0F);
+  glUniform1f(prog.GetUniformLocation("spot_light.linear_"), 0.09F);
+  glUniform1f(prog.GetUniformLocation("spot_light.quadratic_"), 0.032F);
+  glUniform3fv(prog.GetUniformLocation("spot_light.position_"), 1, glm::value_ptr(engine.GetCamera().GetPosition()));
+  glUniform3fv(prog.GetUniformLocation("spot_light.direction_"), 1, glm::value_ptr(engine.GetCamera().GetFront()));
+  glUniform1f(prog.GetUniformLocation("spot_light.inner_cutoff_"), glm::cos(glm::radians(12.5F)));
+  glUniform1f(prog.GetUniformLocation("spot_light.outer_cutoff_"), glm::cos(glm::radians(15.0F)));
+
+  glUniform1i(prog.GetUniformLocation("material.base_color_texture_"), base_color_texture.GetId());
+  glActiveTexture(GL_TEXTURE0 + base_color_texture.GetId());
+  glBindTexture(GL_TEXTURE_2D, base_color_texture.GetId());
+  glUniform1i(prog.GetUniformLocation("material.specular_texture_"), specular_texture.GetId());
+  glActiveTexture(GL_TEXTURE0 + specular_texture.GetId());
+  glBindTexture(GL_TEXTURE_2D, specular_texture.GetId());
+  glUniform1f(prog.GetUniformLocation("material.shininess_"), 32.0F);
+
+  // Models
+  std::array<glm::vec3, 10U> cube_positions {
+      glm::vec3( 0.0F,  0.0F,  0.0F ),
+      glm::vec3( 2.0F,  5.0F, -15.0F),
+      glm::vec3(-1.5F, -2.2F, -2.5F ),
+      glm::vec3(-3.8F, -2.0F, -12.3F),
+      glm::vec3( 2.4F, -0.4F, -3.5F ),
+      glm::vec3(-1.7F,  3.0F, -7.5F ),
+      glm::vec3( 1.3F, -2.0F, -2.5F ),
+      glm::vec3( 1.5F,  2.0F, -2.5F ),
+      glm::vec3( 1.5F,  0.2F, -1.5F ),
+      glm::vec3(-1.3F,  1.0F, -1.5F )
+  };
 
   // Main loop
   while (!glfwWindowShouldClose(window)) {
@@ -160,22 +221,29 @@ int main() {
     glm::mat4 V = engine.GetCamera().CalcViewMatrix();
     glUniformMatrix4fv(prog.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
 
-    // Set texture(s)
-    glUniform1i(prog.GetUniformLocation("tex"), tex.GetId());
-    glActiveTexture(GL_TEXTURE0 + tex.GetId());
-    glBindTexture(GL_TEXTURE_2D, tex.GetId());
+    // Lights
+    glUseProgram(point_light_prog.GetId());
+    glUniformMatrix4fv(point_light_prog.GetUniformLocation("projection"), 1, false, glm::value_ptr(P));
+    glUniformMatrix4fv(point_light_prog.GetUniformLocation("view"), 1, false, glm::value_ptr(V));
+    for (const auto& position : point_light_positions) {
+      glm::mat4 M(1.0F);
+      M = glm::translate(M, position);
+      M = glm::scale(M, glm::vec3(0.2F));
+      glUniformMatrix4fv(point_light_prog.GetUniformLocation("model"), 1, false, glm::value_ptr(M));
+      cube.Render();
+    }
 
     // Set model matrix
-    for (std::size_t i = 0U; i < cubes.size(); i++) {
-      glBindVertexArray(cubes[i].GetId());
-
+    glUseProgram(prog.GetId());
+    glUniform3fv(prog.GetUniformLocation("spot_light.position_"), 1, glm::value_ptr(engine.GetCamera().GetPosition()));
+    glUniform3fv(prog.GetUniformLocation("spot_light.direction_"), 1, glm::value_ptr(engine.GetCamera().GetFront()));
+    glUniform3fv(prog.GetUniformLocation("view_position"), 1, glm::value_ptr(engine.GetCamera().GetPosition()));
+    for (std::size_t i = 0U; i < cube_positions.size(); i++) {
       glm::mat4 M(1.0F);
-      M = glm::translate(M, cubes[i].GetPosition());
+      M = glm::translate(M, cube_positions[i]);
       M = glm::rotate(M, glm::radians(20.0F * i), glm::vec3(1.0F, 0.3F, 0.5F));
       glUniformMatrix4fv(prog.GetUniformLocation("model"), 1, false, glm::value_ptr(M));
-
-      // Draw cubes
-      cubes[i].Render();
+      cube.Render();
     }
 
     // Swap buffers

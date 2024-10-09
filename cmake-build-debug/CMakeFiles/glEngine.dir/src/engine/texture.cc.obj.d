@@ -1,6 +1,6 @@
 CMakeFiles/glEngine.dir/src/engine/texture.cc.obj: \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\texture.cc \
- C:\Users\Hanu\OneDrive\CLionProjects\glEngine\src\engine\texture.h \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\texture.cc \
+ C:\Users\hanwe\OneDrive\CLionProjects\glEngine\src\engine\texture.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -143,8 +143,8 @@ CMakeFiles/glEngine.dir/src/engine/texture.cc.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glad/include/KHR/khrplatform.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/glad/gl.h \
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glad/include/KHR/khrplatform.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.3.2/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/stb-master/stb_image.h
+ C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/stb-master/stb_image.h
