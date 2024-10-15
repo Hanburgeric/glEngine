@@ -92,7 +92,7 @@ Cube::Cube() {
 
   // Colors
   for (auto& vertex : vertices_) {
-    vertex.colors_[0U] = glm::vec4(1.0F);
+    vertex.colors_[0U] = glm::vec4(0.5F);
   }
 
   // Joints

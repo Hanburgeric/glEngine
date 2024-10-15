@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine
+CMAKE_SOURCE_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanwe\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hanu\OneDrive\CLionProjects\glEngine\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
