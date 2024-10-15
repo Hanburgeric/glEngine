@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/hanwe/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm
+# Install script for directory: C:/Users/Hanu/OneDrive/CLionProjects/glEngine/vendor/glm-1.0.1/glm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
